@@ -1,0 +1,245 @@
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 6] 请求参数：{'types': 'visit_webpage', 'ran': '553'}
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 7] 期望结果：200
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 8] 实际结果：200
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 7] 期望结果：200
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 8] 实际结果：200
+[2019-03-29 11:34:10] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 6] 请求参数：{'types': 'visit_webpage', 'ran': '553'}
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 7] 期望结果：200
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 8] 实际结果：200
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 7] 期望结果：200
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 8] 实际结果：200
+[2019-03-29 14:42:34] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:44:33] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:44:33] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:44:33] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:44:33] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:44:33] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 16:44:33] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:46:03] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:46:03] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:46:03] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:46:03] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:46:03] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 16:46:03] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:46:03] INFO [get_request_code: basecase.py, 46] 200
+[2019-03-29 16:47:56] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:47:56] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:47:56] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:47:56] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:47:56] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 16:47:56] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:47:56] INFO [get_request_code: basecase.py, 46] 200
+[2019-03-29 16:49:29] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:49:29] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:49:29] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:49:29] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:49:29] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 16:49:29] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:52:22] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:52:22] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:52:22] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:52:22] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:52:22] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 16:52:22] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:55:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:55:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:55:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:55:13] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:55:13] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 16:55:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:55:13] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 16:56:18] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:56:18] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:56:18] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:56:18] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:56:18] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 16:56:18] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:56:18] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 16:56:18] INFO [get_request_code: basecase.py, 50] 200
+[2019-03-29 16:57:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:57:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:57:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:57:13] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:57:13] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 16:57:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:57:13] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 16:57:13] INFO [get_request_code: basecase.py, 50] 200
+[2019-03-29 16:58:18] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:58:18] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:58:18] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:58:18] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:58:18] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 16:58:18] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:58:18] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 16:58:18] INFO [get_request_code: basecase.py, 50] 200
+[2019-03-29 16:59:15] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:59:15] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:59:15] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:59:15] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:59:15] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 16:59:15] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:59:15] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 16:59:15] INFO [get_request_code: basecase.py, 50] 200
+[2019-03-29 16:59:39] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 16:59:39] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 16:59:39] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 16:59:39] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 16:59:39] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 16:59:39] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 16:59:39] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 16:59:39] INFO [get_request_code: basecase.py, 50] 200
+[2019-03-29 17:05:32] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:05:32] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:05:32] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:05:32] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:05:32] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 17:05:32] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:05:32] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 17:06:20] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:06:20] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:06:20] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:06:20] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:06:20] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 17:06:20] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:06:20] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 17:06:52] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:06:52] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:06:52] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:06:52] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:06:52] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 17:06:52] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:06:52] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 17:06:52] INFO [get_request_code: basecase.py, 49] [<Response [200]>, 200.0]
+[2019-03-29 17:07:50] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:07:50] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:07:50] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:07:50] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:07:50] INFO [case_log_info: cast_log.py, 8] 实际结果：[]
+[2019-03-29 17:07:50] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:07:50] INFO [send_request: basecase.py, 37] [<Response [200]>, 200.0]
+[2019-03-29 17:07:50] INFO [get_request_code: basecase.py, 49] [<Response [200]>, 200.0]
+[2019-03-29 17:10:37] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:10:37] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:10:37] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:10:37] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:10:37] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:10:37] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:10:37] INFO [send_request: basecase.py, 36] [<Response [200]>, 200.0]
+[2019-03-29 17:10:37] INFO [get_request_code: basecase.py, 48] [<Response [200]>, 200.0]
+[2019-03-29 17:10:37] INFO [test_get_http: testcast.py, 9] [200, 200]
+[2019-03-29 17:11:39] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:11:39] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:11:39] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:11:39] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:11:39] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:11:39] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:11:39] INFO [test_get_http: testcast.py, 9] [200, 200]
+[2019-03-29 17:12:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:12:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:12:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:12:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:12:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:12:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:12:56] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:12:56] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:12:56] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:12:56] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:12:56] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:12:56] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:14:20] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:14:20] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:14:20] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:14:20] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:14:20] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:14:20] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:14:21] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-03-29 17:14:21] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-03-29 17:14:21] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:14:21] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:14:21] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:14:21] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:14:34] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 7] 期望结果：500.0
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:19:47] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:27:22] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:27:38] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-29 17:27:51] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-30 21:18:38] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-03-30 21:18:38] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-03-30 21:18:38] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-30 21:18:38] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-30 21:18:38] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-30 21:18:38] INFO [case_log_info: cast_log.py, 9] 
+[2019-03-30 21:18:41] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-03-30 21:18:41] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-03-30 21:18:41] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-03-30 21:18:41] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-03-30 21:18:41] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-03-30 21:18:41] INFO [case_log_info: cast_log.py, 9] 
