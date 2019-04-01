@@ -24,13 +24,7 @@ else:
 
 
 """发送邮件"""
-if send_email_switch:
+end_email_switch
     
-
-
-
-
-
-
 
 
