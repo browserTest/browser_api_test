@@ -23,6 +23,11 @@ else:
 
 
 
+"""发送邮件"""
+if send_email_switch:
+    send_email(report_dir,email_receiver)
+
+
 
 
 
