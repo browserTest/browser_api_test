@@ -24,9 +24,7 @@ else:
 
 
 """发送邮件"""
-"""发送邮件"""
-if email_switch:
-    test_case_path
+if send_email_switch:
     
 
 
