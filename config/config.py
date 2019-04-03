@@ -37,7 +37,7 @@ email_subject = 'InterFace_test_report'
 smtp_server = 'idcmail.meizu.com'
 smtp_sender = 'account@meizu.com'
 
-send_email_switch = False
+send_email_switch = True
 
 
 """配置log相关信息"""
