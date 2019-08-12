@@ -37,6 +37,7 @@ email_subject = 'InterFace_test_report'
 smtp_server = 'idcmail.meizu.com'
 smtp_sender = 'account@meizu.com'
 
+# 邮件发送开关
 send_email_switch = True
 
 
