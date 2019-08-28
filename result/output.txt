@@ -304,3 +304,27 @@
 [2019-08-12 14:46:12] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
 [2019-08-12 14:46:12] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
 [2019-08-12 14:46:12] INFO [case_log_info: cast_log.py, 9] 
+[2019-08-12 17:40:43] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-08-12 17:40:43] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-08-12 17:40:43] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-08-12 17:40:43] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-08-12 17:40:43] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [420]>
+[2019-08-12 17:40:43] INFO [case_log_info: cast_log.py, 9] 
+[2019-08-12 17:40:44] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-08-12 17:40:44] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-08-12 17:40:44] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-08-12 17:40:44] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-08-12 17:40:44] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-08-12 17:40:44] INFO [case_log_info: cast_log.py, 9] 
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_http
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/base_data/list
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [420]>
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 9] 
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 4] 测试用例：test_get_https
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 9] 

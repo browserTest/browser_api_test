@@ -15,11 +15,10 @@ suite = unittest.TestLoader().loadTestsFromTestCase(TestCase)
 """执行用例"""
 if send_email_switch:
     file = open(report_dir, 'wb') # 二进制写格式打开要生成的报告文件
-    HTMLTestRunner(stream = file,title = "22222",description="1111", tester="autoBuild").run(suite)
+    HTMLTestRunner(stream = file,title = "",description="", tester="autoBuild").run(suite)
     file.close()
 else:
     unittest.TextTestRunner(verbosity = 2).run(suite)
-
 
 
 

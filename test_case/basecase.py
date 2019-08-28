@@ -36,11 +36,11 @@ class BaseCase(unittest.TestCase):
         # 对接口类型进行判断
         if method.upper() == 'GET':
             # 发送请求后，将结果赋值给res1，注意，get请求传参是用params
-            res1 = requests.get(url = url, params = json.loads(params))
+            res1 = requests.get(url = url, params = json.dumps(params))
             case_log_info(case_name, url, expect, res1)
         else:
             # post请求传参用data
-            res1 = requests.post(url = url, data = json.loads(params), headers = json.loads(headers))
+            res1 = requests.post(url = url, data = json.dumps(params), headers = json.loads(headers))
             case_log_info(case_name, url, expect, res1)
         res = [expect, res1]
         return res
