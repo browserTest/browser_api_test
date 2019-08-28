@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="390">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -171,6 +171,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lijingxin" />
+      </list>
+    </option>
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -274,7 +279,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -442,7 +447,7 @@
       <workItem from="1565594258712" duration="1335000" />
       <workItem from="1565677212592" duration="1398000" />
       <workItem from="1565768427244" duration="985000" />
-      <workItem from="1566961098496" duration="372000" />
+      <workItem from="1566961098496" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="测试git提交">
       <created>1554112391082</created>
@@ -542,7 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566961167581</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="修改邮件收件人4">
+      <created>1566961530453</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1566961530453</updated>
+    </task>
+    <task id="LOCAL-00016" summary="修改邮件收件人5">
+      <created>1566963645175</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1566963645175</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -578,7 +597,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197143000" />
+    <option name="totallyTimeSpent" value="198708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,9 +610,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49912435" visible="true" weight="0.2153518" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912435" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" sideWeight="0.50087565" side_tool="true" weight="0.18763326" />
       <window_info id="Favorites" order="2" sideWeight="0.50087565" side_tool="true" weight="0.18763326" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -604,10 +622,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.69509596" weight="0.31527627" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.69509596" weight="0.45070422" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3795309" side_tool="true" weight="0.30769232" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6204691" weight="0.30769232" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.6204691" visible="true" weight="0.30769232" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -640,6 +658,12 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="COLUMN_WIDTH">
+                <map>
+                  <entry key="2" value="175" />
+                  <entry key="3" value="172" />
+                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -677,7 +701,9 @@
     <MESSAGE value="更新邮件发送开关为True" />
     <MESSAGE value="增加相关注释" />
     <MESSAGE value="修改邮件收件人3" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改邮件收件人3" />
+    <MESSAGE value="修改邮件收件人4" />
+    <MESSAGE value="修改邮件收件人5" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改邮件收件人5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/connections.py">
@@ -830,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="390">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
