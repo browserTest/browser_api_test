@@ -9,7 +9,7 @@ project_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 """获取其他几个主目录"""
 data_path = os.path.join(project_path, 'data')
-test_case_path = os.path.join(project_path, 'test')
+test_case_path = os.path.join(project_path, 'test_case')
 result_path = os.path.join(project_path, 'result')
 
 
