@@ -30,8 +30,8 @@ db_table_master = 'test'
 
 """邮箱相关配置信息"""
 email_sender = '浏览器接口测试'
-# email_receiver = ['liudawei@meizu.com', 'lijingxin@meizu.com']
-email_receiver = ['liudawei@meizu.com']
+email_receiver = ['liudawei@meizu.com', 'lijingxin@meizu.com']
+# email_receiver = ['liudawei@meizu.com']
 email_subject = 'InterFace_test_report'
 
 smtp_server = 'idcmail.meizu.com'
