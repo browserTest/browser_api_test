@@ -4,6 +4,7 @@ import unittest
 
 from common.get_excel_data import *
 from common.cast_log import *
+from data.db import DB   #引入数据库——LYX
 
 class BaseCase(unittest.TestCase):
 
@@ -19,6 +20,17 @@ class BaseCase(unittest.TestCase):
     # 获取当前用例的预期结果
     def get_expect_result(self, case_data):
         expect = case_data.get('expect')
+        return expect
+
+    # 获取当前用例的data——LYX
+    def get_expect_data(self, case_data):
+        expect = case_data.get('data')
+        return expect
+
+    # 获取数据库查询结果——LYX
+    def get_expect_db(self,sql):
+        db = DB()
+        expect = db.query(sql)
         return expect
 
     # 发送request请求
@@ -105,6 +117,28 @@ class BaseCase(unittest.TestCase):
         res = requests.post(url=url, data=data, verify=False)
         res1 = json.loads(res.text)['access_token']
         return res1
+
+    """获取结果中的value——LYX"""
+    def get_request_value(self,case_name):
+        res = self.get_result(case_name)
+        result_expect = str(res[0])
+        result_actual = str(json.loads(res[1].text)['value'])
+        result = [result_expect,result_actual]
+        return result
+
+    """获取结果中的state和DB数据——LYX"""
+    def get_request_DB(self,case_name):
+        res = self.get_result(case_name)
+        data = self.get_expect_data(self.get_case_data(case_name))        #获取excel中的data
+        db = self.get_expect_db("select * from `wangjian_black_list` where target = '%s'" % (json.loads(data)['userId']))
+        result_expect = 1 if db == () else 0
+        state = json.loads(res[1].text)['value']
+        result_actual = state['state']
+        result = [result_expect,result_actual]
+        return result
+
+
+
 
 
 

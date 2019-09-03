@@ -25,7 +25,7 @@ class DB():
     def query(self, sql):
         self.cur.execute(sql)
         result = self.cur.fetchall()
-        return result[0][1]
+        return result
 
 
     """提交sql"""

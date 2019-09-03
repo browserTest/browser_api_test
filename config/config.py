@@ -25,12 +25,12 @@ excel_dir = os.path.join(data_path, 'data_list.xlsx')
 db_host_master = '172.16.178.242'
 db_username_master = 'mysqluser'
 db_password_master = 'mmsmysqluser'
-db_table_master = 'test'
+db_table_master = 'MEIZU_BRO'
 
 
 """邮箱相关配置信息"""
 email_sender = '浏览器接口测试'
-email_receiver = ['liudawei@meizu.com', 'lijingxin@meizu.com']
+email_receiver = ['liudawei@meizu.com', 'lijingxin@meizu.com','luyouxuan@meizu.com']
 # email_receiver = ['liudawei@meizu.com']
 email_subject = 'InterFace_test_report'
 
@@ -38,7 +38,7 @@ smtp_server = 'idcmail.meizu.com'
 smtp_sender = 'account@meizu.com'
 
 # 邮件发送开关
-send_email_switch = True
+send_email_switch = False
 
 
 """配置log相关信息"""

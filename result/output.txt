@@ -330,3 +330,45 @@
 [2019-08-12 17:41:37] INFO [case_log_info: cast_log.py, 9]
 
 
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 4] 测试用例：test011a
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 4] 测试用例：test011b
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 7] 期望结果：{'state': 1}
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 4] 测试用例：test011c
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 7] 期望结果：
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-03 16:35:32] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 4] 测试用例：test003
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 4] 测试用例：test011a
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 4] 测试用例：test011b
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 7] 期望结果：{'state': 1}
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 4] 测试用例：test011c
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 7] 期望结果：
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-03 16:36:40] INFO [case_log_info: cast_log.py, 9] 
