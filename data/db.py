@@ -25,8 +25,13 @@ class DB():
     def query(self, sql):
         self.cur.execute(sql)
         result = self.cur.fetchall()
-        return result
+        return result[0][1]
 
+    """获取全部查询结果——LYX"""
+    def query_all(self, sql):
+        self.cur.execute(sql)
+        result = self.cur.fetchall()
+        return result
 
     """提交sql"""
     def exec(self, sql):

@@ -17,7 +17,7 @@ class TestCase(BaseCase):
         result = self.get_request_code('test003')
         self.assertEqual(result[0],result[1])
 
-    """test011——LYX"""
+    """test011a——LYX"""
     def test_get_test011a(self):
         result = self.get_request_code('test011a')
         self.assertEqual(result[0],result[1])
@@ -30,4 +30,14 @@ class TestCase(BaseCase):
     """test011c——LYX"""
     def test_get_test011c(self):
         result = self.get_request_DB('test011c')
+        self.assertEqual(result[0],result[1])
+
+    """test016——LYX"""
+    def test_get_test016(self):
+        result = self.get_request_code('test016')
+        self.assertEqual(result[0],result[1])
+
+    """test021——LYX"""
+    def test_get_test021(self):
+        result = self.get_request_code('test021')
         self.assertEqual(result[0],result[1])
