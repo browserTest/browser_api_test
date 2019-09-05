@@ -25,7 +25,7 @@ class TestCase(BaseCase):
     """test011b——LYX"""
     def test_get_test011b(self):
         result = self.get_request_value('test011b')
-        self.assertEqual(result[0],result[1])
+        self.assertEqual(str(result[0]),str(result[1]))
 
     """test011c——LYX"""
     def test_get_test011c(self):

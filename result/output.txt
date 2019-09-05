@@ -528,3 +528,39 @@
 [2019-09-05 15:02:44] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
 [2019-09-05 15:02:44] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
 [2019-09-05 15:02:44] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 4] 测试用例：test003
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 4] 测试用例：test011a
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 4] 测试用例：test011b
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 7] 期望结果：{'state': 1}
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 4] 测试用例：test011c
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 7] 期望结果：
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-05 16:49:22] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 4] 测试用例：test016
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 4] 测试用例：test021
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 9] 

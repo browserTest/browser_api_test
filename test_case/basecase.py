@@ -133,8 +133,8 @@ class BaseCase(unittest.TestCase):
     """获取结果中的value——LYX"""
     def get_request_value(self,case_name):
         res = self.get_result(case_name)
-        result_expect = str(res[0])
-        result_actual = str(json.loads(res[1].text)['value'])
+        result_expect = res[0]
+        result_actual = json.loads(res[1].text)['value']
         result = [result_expect,result_actual]
         return result
 
