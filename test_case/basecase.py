@@ -5,6 +5,9 @@ import unittest
 from common.get_excel_data import *
 from common.cast_log import *
 from data.db import DB   #引入数据库——LYX
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+# 禁用安全请求警告——LYX
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 class BaseCase(unittest.TestCase):
 
@@ -30,7 +33,7 @@ class BaseCase(unittest.TestCase):
     # 获取数据库查询结果——LYX
     def get_expect_db(self,sql):
         db = DB()
-        expect = db.query(sql)
+        expect = db.query_all(sql)
         return expect
 
     # 发送request请求
@@ -45,14 +48,23 @@ class BaseCase(unittest.TestCase):
         # expect = self.get_expect_result(case_data)
         headers = case_data.get('headers')
 
+        # 增加判断，请求参数中若含有access_token，则对其更新——LYX
+        if 'access_token' in params:
+            params = json.loads(params)
+            params['access_token'] = self.get_token()
+            params = json.dumps(params)
+        if 'access_token' in headers:
+            headers = json.loads(headers)
+            headers['access_token'] = self.get_token()
+
         # 对接口类型进行判断
         if method.upper() == 'GET':
             # 发送请求后，将结果赋值给res1，注意，get请求传参是用params
-            res1 = requests.get(url = url, params = json.dumps(params))
+            res1 = requests.get(url = url, params = json.loads(params),headers = headers)
             case_log_info(case_name, url, expect, res1)
         else:
             # post请求传参用data
-            res1 = requests.post(url = url, data = json.dumps(params), headers = json.loads(headers))
+            res1 = requests.post(url = url, data = json.loads(params), headers = json.loads(headers))
             case_log_info(case_name, url, expect, res1)
         res = [expect, res1]
         return res
