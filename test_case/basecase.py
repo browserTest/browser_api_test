@@ -9,6 +9,8 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 # 禁用安全请求警告——LYX
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
+from data.getdb import *
+
 class BaseCase(unittest.TestCase):
 
     # 获取execl数据
@@ -149,6 +151,11 @@ class BaseCase(unittest.TestCase):
         result = [result_expect,result_actual]
         return result
 
+    """获取接口返回的value-LJX"""
+    def get_response_value(self,case_name):
+        res = self.get_result(case_name)
+        result_actual = json.loads(res[1].text)['value']
+        return result_actual
 
 
 

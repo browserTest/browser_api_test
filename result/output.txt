@@ -564,3 +564,728 @@
 [2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 7] æœŸæœ›ç»“æžœï¼š200.0
 [2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 8] å®žé™…ç»“æžœï¼š<Response [200]>
 [2019-09-05 16:49:23] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011a
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011b
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{'state': 1}
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011c
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:28:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest016
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest021
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:28:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest009
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011a
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:30:19] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011b
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{'state': 1}
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011c
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest016
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:30:20] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:30:21] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest021
+[2019-09-05 18:30:21] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-05 18:30:21] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:30:21] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:30:21] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:30:21] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:31:02] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest009
+[2019-09-05 18:31:02] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-05 18:31:02] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:31:02] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:31:02] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:31:02] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest009
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011a
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011b
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{'state': 1}
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011c
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest016
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:31:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:31:14] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest021
+[2019-09-05 18:31:14] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-05 18:31:14] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:31:14] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:31:14] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:31:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:50:49] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 18:50:49] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 18:50:49] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:50:49] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:50:49] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:50:49] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:52:00] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 18:52:00] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 18:52:00] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:52:00] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:52:00] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:52:00] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest009
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:55:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011a
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011b
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{'state': 1}
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011c
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest016
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest021
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:55:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:56:30] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 18:56:30] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 18:56:30] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:56:30] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:56:30] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:56:30] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:56:56] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 18:56:56] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 18:56:56] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:56:56] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:56:56] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:56:56] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:57:01] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 18:57:01] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 18:57:01] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:57:01] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:57:01] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:57:01] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:57:18] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 18:57:18] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 18:57:18] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:57:18] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:57:18] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:57:18] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:58:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 18:58:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 18:58:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:58:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:58:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:58:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 18:59:12] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 18:59:12] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 18:59:12] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 18:59:12] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 18:59:12] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 18:59:12] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:00:21] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 19:00:21] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 19:00:21] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:00:21] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:00:21] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:00:21] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:01:01] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:01:01] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:01:01] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:01:01] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:01:01] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:01:01] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:04:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:04:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:04:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:04:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:04:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:09:58] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:09:58] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:09:58] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:09:58] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:09:58] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:09:58] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:10:31] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:10:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:10:31] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:10:31] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:10:31] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:10:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:17:23] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:17:23] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:17:23] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:17:23] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:17:23] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:17:23] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:18:42] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 19:18:42] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 19:18:42] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:18:42] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:18:42] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:18:42] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:18:48] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:18:48] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:18:48] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:18:48] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:18:48] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:18:48] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:19:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 19:19:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 19:19:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:19:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:19:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:19:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:19:20] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:19:20] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:19:20] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:19:20] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:19:20] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:19:20] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:23:01] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:23:01] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:23:01] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:23:01] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:23:01] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:23:31] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:23:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:23:31] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:23:31] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:23:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:23:59] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:23:59] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:23:59] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:23:59] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:23:59] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:42:44] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 19:42:44] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 19:42:44] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:42:44] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:42:44] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:42:44] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:42:48] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:42:48] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:42:48] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:42:48] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:42:48] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:43:17] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:43:17] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:43:17] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:43:17] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:43:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:44:38] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:44:38] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:44:38] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:44:38] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:44:38] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:50:12] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:50:12] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:50:12] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:50:12] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:50:12] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:50:12] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:50:41] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:50:41] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:50:41] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:50:41] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:50:41] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:50:41] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest009
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011a
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011b
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{'state': 1}
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011c
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:51:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest016
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest021
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:51:47] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 19:55:52] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-05 19:55:52] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-05 19:55:52] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 19:55:52] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 19:55:52] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 19:55:52] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:11:12] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest009
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011a
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011b
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{'state': 1}
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011c
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest016
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:11:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:11:14] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest021
+[2019-09-05 20:11:14] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-05 20:11:14] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:11:14] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 20:11:14] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:11:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:39:00] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest019
+[2019-09-05 20:39:00] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-05 20:39:00] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:39:00] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 20:39:00] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [400]>
+[2019-09-05 20:39:00] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-05 20:48:28] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest019
+[2019-09-05 20:48:28] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-05 20:48:28] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-05 20:48:28] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-05 20:48:28] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-05 20:48:28] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 10:23:45] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 10:23:45] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 10:23:45] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 10:23:45] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 10:23:45] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 10:23:45] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest003
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest007
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest009
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011a
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011b
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{'state': 1}
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011c
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 10:23:46] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 10:23:47] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest019
+[2019-09-06 10:23:47] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-06 10:23:47] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 10:23:47] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 10:23:47] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 10:23:47] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 11:18:02] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 11:18:02] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 11:18:02] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 11:18:02] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 11:18:02] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 11:18:02] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 11:18:08] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 11:18:08] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 11:18:08] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 11:18:08] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 11:18:08] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 11:18:08] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 11:19:16] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 11:19:16] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 11:19:16] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 11:19:16] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 11:19:16] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 11:19:16] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 11:19:21] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 11:19:21] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 11:19:21] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 11:19:21] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 11:19:21] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 11:19:21] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:22:24] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:22:24] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:22:24] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:22:24] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:22:24] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:22:24] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:22:44] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:22:44] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:22:44] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:22:44] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:22:44] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:22:44] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:23:08] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:23:08] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:23:08] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:23:08] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:23:08] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:23:08] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:23:33] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:23:33] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:23:33] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:23:33] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:23:33] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:23:33] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:30:18] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:30:18] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:30:18] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:30:18] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:30:18] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:30:18] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:30:42] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:30:42] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:30:42] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:30:42] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:30:42] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:30:42] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:32:17] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:32:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:32:17] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:32:17] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:32:17] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:32:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:37:36] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:37:36] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:37:36] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:37:36] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:37:36] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:37:36] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:38:31] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:38:31] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:38:31] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:38:31] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:38:31] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:38:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:38:43] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:38:43] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:38:43] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:38:43] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:38:43] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:38:43] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:41:12] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:41:12] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:41:12] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:41:12] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:41:12] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:41:12] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:41:45] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:41:45] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:41:45] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:41:45] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:41:45] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:41:45] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:46:05] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:46:05] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:46:05] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:46:05] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:46:05] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:46:05] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:46:09] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:46:09] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:46:09] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:46:09] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:46:09] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:46:09] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:49:27] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:49:27] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:49:27] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:49:27] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:49:27] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:49:27] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:49:30] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:49:30] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:49:30] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:49:30] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:49:30] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:49:30] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:52:58] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:52:58] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:52:58] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:52:58] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:52:58] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:52:58] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:55:45] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:55:45] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:55:45] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:55:45] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:55:45] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:55:45] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:55:51] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:55:51] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:55:51] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:55:51] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:55:51] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:55:51] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011a
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011b
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{'state': 1}
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011c
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 12:57:41] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:06:18] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 14:06:18] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 14:06:18] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:06:18] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 14:06:18] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:06:18] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:06:32] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 14:06:32] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 14:06:32] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:06:32] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 14:06:32] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:06:32] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011a
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011b
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{'state': 1}
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest011c
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:06:49] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:07:20] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 14:07:20] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 14:07:20] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:07:20] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 14:07:20] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:07:20] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:08:50] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 14:08:50] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 14:08:50] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:08:50] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 14:08:50] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:08:50] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:09:57] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 14:09:57] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 14:09:57] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:09:57] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 14:09:57] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:09:57] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:10:45] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002
+[2019-09-06 14:10:45] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 14:10:45] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:10:45] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º200.0
+[2019-09-06 14:10:45] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:10:45] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:10:49] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 14:10:49] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 14:10:49] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:10:49] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 14:10:49] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:10:49] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-06 14:12:17] INFO [case_log_info: cast_log.py, 4] ²âÊÔÓÃÀý£ºtest002a
+[2019-09-06 14:12:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-06 14:12:17] INFO [case_log_info: cast_log.py, 6] ÇëÇó²ÎÊý£º{}
+[2019-09-06 14:12:17] INFO [case_log_info: cast_log.py, 7] ÆÚÍû½á¹û£º{"title": "ÈÈÃÅÐ¡Ëµ"}
+[2019-09-06 14:12:17] INFO [case_log_info: cast_log.py, 8] Êµ¼Ê½á¹û£º<Response [200]>
+[2019-09-06 14:12:17] INFO [case_log_info: cast_log.py, 9] 
