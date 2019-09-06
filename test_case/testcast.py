@@ -1,6 +1,6 @@
 from test_case.basecase import BaseCase
 import logging
-
+from data.getdb import *
 
 class TestCase(BaseCase):
 
@@ -41,3 +41,17 @@ class TestCase(BaseCase):
     def test_get_test021(self):
         result = self.get_request_code('test021')
         self.assertEqual(result[0],result[1])
+
+    """test004a——LJX"""
+    def test004_a(self):
+        result = self.get_request_code('test004a')
+        self.assertEqual(result[0], result[1])
+
+    """test004b——LJX"""
+    def test004_b(self):
+        result = self.get_response_value('test004b')
+        for i in range(len(result)):
+            if result[i]['type'] == 'android_uc':
+                res = result[i]['value']
+        self.assertEqual(android_uc, res)
+

@@ -149,6 +149,11 @@ class BaseCase(unittest.TestCase):
         result = [result_expect,result_actual]
         return result
 
+    """获取接口返回的value-LJX"""
+    def get_response_value(self,case_name):
+        res = self.get_result(case_name)
+        result_actual = json.loads(res[1].text)['value']
+        return result_actual
 
 
 
