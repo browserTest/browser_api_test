@@ -90,3 +90,19 @@ class TestCase(BaseCase):
         print(result)
         self.assertEqual(result[0], result[1])
 
+    """test012——WMW"""
+    def test_get_test012(self):
+        result = self.get_request_code('test012')
+        self.assertEqual(result[0], result[1])
+
+    """test014——WMW"""
+    def test_get_test014(self):
+            result = self.get_request_code('test014')
+            self.assertEqual(result[0], result[1])
+
+    """test018——WMW"""
+    def test_get_test018(self):
+        result = self.get_request_code('test018')
+        self.assertEqual(result[0],result[1])
+
+
