@@ -33,6 +33,14 @@ class DB():
         result = self.cur.fetchall()
         return result
 
+    """查询导航网站中的热门小说NOVEL——LCM"""
+    def query_NOVEL(self, sql):
+        self.cur.execute(sql)
+        result = self.cur.fetchall()
+        return result[0][3]
+
+
+
     """提交sql"""
     def exec(self, sql):
         try:
