@@ -43,19 +43,25 @@ class TestCase(BaseCase):
         self.assertEqual(result[0],result[1])
 
     """test004a——LJX"""
-    def test004_a(self):
+    def test004a(self):
         result = self.get_request_code('test004a')
         self.assertEqual(result[0], result[1])
 
     """test004b——LJX"""
-    def test004_b(self):
+    def test004b(self):
         result = self.get_response_value('test004b')
         for i in range(len(result)):
             if result[i]['type'] == 'android_uc':
                 res = result[i]['value']
         self.assertEqual(android_uc, res)
 
-
+    """test004b——LJX"""
+    def test004c(self):
+        result = self.get_response_value('test004c')
+        for i in range(len(result)):
+            if result[i]['type'] == 'android_360':
+                res = result[i]['value']
+        self.assertEqual(android_360, res)
 
 
 

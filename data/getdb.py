@@ -14,5 +14,7 @@ db1 = DB()
 
 android_uc = db1.query_0_0("SELECT VALUE FROM `base_data` WHERE TYPE = 'android_uc'")
 
+android_360 = db1.query_0_0("SELECT VALUE FROM `base_data` WHERE TYPE = 'android_360'")
+
 
 

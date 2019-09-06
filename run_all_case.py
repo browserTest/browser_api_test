@@ -6,11 +6,11 @@ from common.send_email import send_email
 from config.config import *
 
 """整合用例"""
-suite = unittest.TestSuite()
-suite.addTest(TestCase('test_get_test002a'))
+# suite = unittest.TestSuite()
+# suite.addTest(TestCase('test_get_http'))
 
 
-# suite = unittest.TestLoader().loadTestsFromTestCase(TestCase)
+suite = unittest.TestLoader().loadTestsFromTestCase(TestCase)
 
 """执行用例"""
 if send_email_switch:
