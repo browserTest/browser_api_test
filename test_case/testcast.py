@@ -63,7 +63,29 @@ class TestCase(BaseCase):
                 res = result[i]['value']
         self.assertEqual(android_360, res)
 
+    """test006a——LJX"""
+    def test006a(self):
+        result = self.get_request_code('test006a')
+        self.assertEqual(result[0], result[1])
 
+    """test006b——LJX"""
+    def test006b(self):
+        result = self.get_response_value('test006b')
+        for i in range(len(result)):
+            if result[i]['key'] == 'zhengfu_black_host':
+                res = result[i]['value']
+        self.assertEqual(zhengfu_black_host, res)
+
+    """test010a——LJX"""
+    def test010a(self):
+        result = self.get_request_code('test010a')
+        self.assertEqual(result[0], result[1])
+
+    """test010b——LJX"""
+    def test010b(self):
+        result = self.get_response_value('test010b')
+        res = tuple(result[0].values())
+        self.assertEqual(search_suggest, res)
 
     """test002——LCM——校验实际结果与预期结果值都为200"""
     def test_get_test002(self):

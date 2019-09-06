@@ -34,6 +34,11 @@ class DB():
         result = self.cur.fetchall()
         return result[0][0]
 
+    """获取查询结果的第1个的值-LJX"""
+    def query_0(self, sql):
+        self.cur.execute(sql)
+        result = self.cur.fetchall()
+        return result[0]
 
     """获取全部查询结果——LYX"""
     def query_all(self, sql):

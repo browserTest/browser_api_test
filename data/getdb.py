@@ -16,5 +16,11 @@ android_uc = db1.query_0_0("SELECT VALUE FROM `base_data` WHERE TYPE = 'android_
 
 android_360 = db1.query_0_0("SELECT VALUE FROM `base_data` WHERE TYPE = 'android_360'")
 
+zhengfu_black_host = db1.query_0_0("SELECT VALUE FROM `bloom_config` WHERE `KEY` = 'zhengfu_black_host'")
+
+search_suggest = db1.query_0("SELECT keyword,url,weight FROM search_suggest")
+
+
+
 
 
