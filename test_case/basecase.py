@@ -151,18 +151,13 @@ class BaseCase(unittest.TestCase):
         result = [result_expect,result_actual]
         return result
 
-    """获取结果中的title和DB数据——LCM"""
-    def get_request_DB_title(self,case_name):
+    """获取接口返回的value-LJX"""
+    def get_response_value(self,case_name):
         res = self.get_result(case_name)
-        result_expect = res[0]
-        title = json.loads(res[1].text)['value']
-        json_str = json.loads(title[2]['title'])
-        print(json_str)
-        result_actual = json.loads(jsonpath.jsonpath(title,'$...title'))
-        print(result_actual)
+        result_actual = json.loads(res[1].text)['value']
+        return result_actual
 
-        result = [result_expect,result_actual]
-        return result
+
 
 
 
