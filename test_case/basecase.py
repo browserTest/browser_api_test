@@ -17,6 +17,7 @@ class BaseCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.get_data = get_excel_all_data(excel_dir, 'testcase')
+        cls.db = DB()
 
     # 获取当前用例数据
     def get_case_data(self, case_name):
@@ -28,15 +29,16 @@ class BaseCase(unittest.TestCase):
         return expect
 
     # 获取当前用例的data——LYX
-    def get_expect_data(self, case_data):
-        expect = case_data.get('data')
-        return expect
+    def get_expect_data(self, case_name):
+        case_data = self.get_case_data(case_name)
+        data = case_data.get('data')
+        return data
 
-    # 获取数据库查询结果——LYX
-    def get_expect_db(self,sql):
-        db = DB()
-        expect = db.query_all(sql)
-        return expect
+    # 获取当前用例的url——LYX
+    def get_url(self, case_name):
+        case_data = self.get_case_data(case_name)
+        url = case_data.get('url')
+        return url
 
     # 发送request请求
     def send_request(self, case_data):
@@ -65,6 +67,7 @@ class BaseCase(unittest.TestCase):
             # 发送请求后，将结果赋值给res1，注意，get请求传参是用params
             res1 = requests.get(url = url, params = json.loads(params),headers = headers, verify=False)
             case_log_info(case_name, url, expect, res1)
+           # case_log_base(case_name, url,params)  #打印用例基础信息——LYX
         else:
             # post请求传参用data
             res1 = requests.post(url = url, data = json.loads(params), headers = json.loads(headers), verify=False)
@@ -138,17 +141,6 @@ class BaseCase(unittest.TestCase):
         res = self.get_result(case_name)
         result_expect = res[0]
         result_actual = json.loads(res[1].text)['value']
-        result = [result_expect,result_actual]
-        return result
-
-    """获取结果中的state和DB数据——LYX"""
-    def get_request_DB(self,case_name):
-        res = self.get_result(case_name)
-        data = self.get_expect_data(self.get_case_data(case_name))        #获取excel中的data
-        db = self.get_expect_db("select * from `wangjian_black_list` where target = '%s'" % (json.loads(data)['userId']))
-        result_expect = 1 if db == () else 0
-        state = json.loads(res[1].text)['value']
-        result_actual = state['state']
         result = [result_expect,result_actual]
         return result
 

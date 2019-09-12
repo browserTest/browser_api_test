@@ -7,3 +7,16 @@ def case_log_info(name, url,expect_result, actual_result,date = {}):
     logging.info("期望结果：{}".format(expect_result))
     logging.info("实际结果：{}".format(actual_result))
     logging.info("")
+
+
+#打印用例基本信息——LYX
+def case_log_base(name, url,date = {}):
+    logging.info("测试用例：{}".format(name))
+    logging.info("url:{}".format(url))
+    logging.info("请求参数：{}".format(date))
+
+#打印用例期望值和实际结果——LYX
+def case_log_result(expect_result, actual_result):
+    logging.info("期望结果：{}".format(expect_result))
+    logging.info("实际结果：{}".format(actual_result))
+    logging.info("")

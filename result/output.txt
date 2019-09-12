@@ -1463,3 +1463,781 @@
 [2019-09-06 15:35:51] INFO [case_log_info: cast_log.py, 7] ���������200.0
 [2019-09-06 15:35:51] INFO [case_log_info: cast_log.py, 8] ʵ�ʽ����<Response [200]>
 [2019-09-06 15:35:51] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-11 14:16:28] INFO [case_log_info: cast_log.py, 4] 测试用例：test003
+[2019-09-11 14:16:28] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-11 14:16:28] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-11 14:16:28] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-11 14:16:28] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-11 14:16:28] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-11 14:27:40] INFO [case_log_info: cast_log.py, 4] 测试用例：test003
+[2019-09-11 14:27:40] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-11 14:27:40] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-11 14:27:40] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-11 14:27:40] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-11 14:27:40] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-11 14:28:57] INFO [case_log_info: cast_log.py, 4] 测试用例：test011b
+[2019-09-11 14:28:57] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-11 14:28:57] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-11 14:28:57] INFO [case_log_info: cast_log.py, 7] 期望结果：{'state': 1}
+[2019-09-11 14:28:57] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-11 14:28:57] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 4] 测试用例：test004a
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:49] INFO [case_log_base: cast_log.py, 14] 测试用例：test004a
+[2019-09-12 14:48:49] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:48:49] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.1.0","vc":"8001000","firmware_type":"normal"}
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 4] 测试用例：test004b
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:49] INFO [case_log_base: cast_log.py, 14] 测试用例：test004b
+[2019-09-12 14:48:49] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:48:49] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"ua_uc,android_uc,desktop_uc,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"7.12.0","vc":"7012000","firmware_type":"normal"}
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 4] 测试用例：test004c
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:49] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:49] INFO [case_log_base: cast_log.py, 14] 测试用例：test004c
+[2019-09-12 14:48:49] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:48:49] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.2.0","vc":"8002000","firmware_type":"normal"}
+[2019-09-12 14:48:52] INFO [case_log_info: cast_log.py, 4] 测试用例：test006a
+[2019-09-12 14:48:52] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:48:52] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:52] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:52] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:52] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:52] INFO [case_log_base: cast_log.py, 14] 测试用例：test006a
+[2019-09-12 14:48:52] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:48:52] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test006b
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test006b
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test010a
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test010a
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test010b
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test010b
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test002
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test002
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test003
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test003
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test003b
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test003b
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test007
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test007
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test009
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test009
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/getUserData
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"imei":"861936030053089"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test011a
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test011a
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"0"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test011b
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：{'state': 1}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test011b
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test011c
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test011c
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test012
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test012
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"city":"深圳市"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test014
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test014
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"25","mzos":"0","screen_size":"1080x1920","device_model":"M15","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867343030050385","searchEngine":"ucwy752250"}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 4] 测试用例：test016
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:53] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 14] 测试用例：test016
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-12 14:48:53] INFO [case_log_base: cast_log.py, 16] 请求参数：{"access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1NjgyNzA5MzMzMTAsInMiOiJucyIsImMiOiIxIiwiciI6InhnMmlsOVpwb1JTaXZoWnd5RE53IiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IjAzRjA4OUJERTAyM0E1QkVGMDU2Q0VGOEU3NzFEN0YxIn0", "supportSDK": "48", "videoVersion": "7011001", "v": "8001000", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.1.0", "deviceinfo": "kzUyLtPx5lgl5Rsv3p2XwRx5ihynmNSTUGfFo9EAhyYMPvvkSgTBsS77a2CYvT2bgkbEl+tj9XIC6lwtQFwVuvO4QshspDKee64RnD10+kYKujc/HSuIF7sLNpmzmF3RJ20XALGL2MUB+6dDFnUT2iXkCdSQ10XxQhFp8SZ1ZbU=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "", "os": "6.0-1517987373_I"}
+[2019-09-12 14:48:54] INFO [case_log_info: cast_log.py, 4] 测试用例：test018
+[2019-09-12 14:48:54] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-12 14:48:54] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:54] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:54] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:54] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:54] INFO [case_log_base: cast_log.py, 14] 测试用例：test018
+[2019-09-12 14:48:54] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-12 14:48:54] INFO [case_log_base: cast_log.py, 16] 请求参数： {"articleId":"1567574112122001","lastReqId":"","cpType":"64","algorithmVersion":"TENCENT--1","putdate":"1567570868000","temp_column_cp_source":"64","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"c6359c2f-4597-4476-b166-5be6a52bcc53","opType":"3","supportSDK":"48","temp_column_name":"头条","browserCardSex":"-1","cpChannelId":"0","cpMark":"0","columnId":"-1","tags":"","ucparam":"{'channelId':0,'cityName':'','ftime':0,'method':'new','recoid':''}","temp_column_id":"-1","v":"8001000","sdkVersion":"2000001","flymeuid":"113543993","nt":"wifi","vn":"8.1.0","deviceinfo":"YEDj4AIQddxlCF4yz/1gg6DYgZfV4NHdPou8LbdQwUD46sYUONm2M9VR5iD2c0s4G/FQW+LAQ4njBO4fj0yylvgMbP4G2bhnKH3OO3js520LRs8fWaz+abwm25gWZMJhFJK7bJEDOCRSC2kiYU6lFOkLE9mc9aXYi/nr91Vq+CU=","pkgName":"com.android.browser","deviceType":"M8710","ip":"","os":"7.1.2-1562065338_stable"}
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 4] 测试用例：test019
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:55] INFO [case_log_base: cast_log.py, 14] 测试用例：test019
+[2019-09-12 14:48:55] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-12 14:48:55] INFO [case_log_base: cast_log.py, 16] 请求参数：{"articleId":"1567686289958200","lastReqId":"","algorithmVersion":"JINRITOUTIAO-46","cpType":"84","putdate":"1567587960000","temp_column_cp_source":"84","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"758c13f2-89e0-458c-91dc-af4a544207d1","opType":"3","temp_column_name":"%E8%A7%86%E9%A2%91&supportSDK=48","browserCardSex":"-1","cpChannelId":"46","cpMark":"7","tags":"","columnId":"46","ucparam":"%7B%22channelId%22%3A46%2C%22cityName%22%3A%22%22%2C%22ftime%22%3A0%2C%22method%22%3A%22new%22%2C%22recoid%22%3A%22%22%7D","temp_column_id":"46","goldVersion":"1000000","v":"8002000","sdkVersion":"2002000","flymeuid":"113535901","nt":"wifi","vn":"8.2.0","deviceinfo":"K5tW96U381UAnuksQ%2Brlgj4y2j4mby1XHAhMn3eQ0lhI%2FlLrmCcNmvRWZHrNK6BVGfqyVWbw%2BoJF%0A8U9ODWoigmevBgILfNL4bvUpM8GDFFzQUs%2F02TRqcov3KyyuSblqIRMU0GmBPhGWZdrSdREj7QcU%0AIVnkOe7AwzN4HXhHcfE%3D%0A","pkgName":"com.android.browser","deviceType":"M576","ip":"","os":"5.1-1479146976_stable"}
+
+
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 4] 测试用例：test020
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 5] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 7] 期望结果：code=200
+value=0\1
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [401]>
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:55] INFO [case_log_base: cast_log.py, 14] 测试用例：test020
+[2019-09-12 14:48:55] INFO [case_log_base: cast_log.py, 15] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-12 14:48:55] INFO [case_log_base: cast_log.py, 16] 请求参数：{"source":"6"}
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 4] 测试用例：test021
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:48:55] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:48:55] INFO [case_log_base: cast_log.py, 14] 测试用例：test021
+[2019-09-12 14:48:55] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-12 14:48:55] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"34175513262088325_76_0","businessSubType":"4","content":"不","star":"","image":"","source":"6","materielId":"298200461","sign":"b5cbb875aea8e5c69487789774f96c0e"}
+[2019-09-12 14:52:08] INFO [case_log_info: cast_log.py, 4] 测试用例：test011c
+[2019-09-12 14:52:08] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:52:08] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:52:08] INFO [case_log_info: cast_log.py, 7] 期望结果：
+[2019-09-12 14:52:08] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:52:08] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:52:08] INFO [case_log_base: cast_log.py, 14] 测试用例：test011c
+[2019-09-12 14:52:08] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:52:08] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test004a
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 14] 测试用例：test004a
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.1.0","vc":"8001000","firmware_type":"normal"}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test004b
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 14] 测试用例：test004b
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"ua_uc,android_uc,desktop_uc,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"7.12.0","vc":"7012000","firmware_type":"normal"}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test004c
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 14] 测试用例：test004c
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.2.0","vc":"8002000","firmware_type":"normal"}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test006a
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 14] 测试用例：test006a
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test006b
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 14] 测试用例：test006b
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test010a
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 14] 测试用例：test010a
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:53:13] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test010b
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test010b
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test002
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test002
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test003
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test003
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test003b
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test003b
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test007
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test007
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test009
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test009
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/getUserData
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"imei":"861936030053089"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test011a
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test011a
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"0"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test011b
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：{'state': 1}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test011b
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test011c
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test011c
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-12 14:53:14] INFO [case_log_result: cast_log.py, 20] 期望结果：1
+[2019-09-12 14:53:14] INFO [case_log_result: cast_log.py, 21] 实际结果：1
+[2019-09-12 14:53:14] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test012
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test012
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"city":"深圳市"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test014
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test014
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"25","mzos":"0","screen_size":"1080x1920","device_model":"M15","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867343030050385","searchEngine":"ucwy752250"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test016
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test016
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1NjgyNzExOTQxNTgsInMiOiJucyIsImMiOiIxIiwiciI6IlVId2xHeGJEdkI2bllJSjhUZnZtIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IjcxQUY2ODdFNTA1NDgzRjM5ODA1QUYxQTVBMjUyQTk4In0", "supportSDK": "48", "videoVersion": "7011001", "v": "8001000", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.1.0", "deviceinfo": "kzUyLtPx5lgl5Rsv3p2XwRx5ihynmNSTUGfFo9EAhyYMPvvkSgTBsS77a2CYvT2bgkbEl+tj9XIC6lwtQFwVuvO4QshspDKee64RnD10+kYKujc/HSuIF7sLNpmzmF3RJ20XALGL2MUB+6dDFnUT2iXkCdSQ10XxQhFp8SZ1ZbU=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "", "os": "6.0-1517987373_I"}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test018
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test018
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-12 14:53:14] INFO [case_log_base: cast_log.py, 16] 请求参数： {"articleId":"1567574112122001","lastReqId":"","cpType":"64","algorithmVersion":"TENCENT--1","putdate":"1567570868000","temp_column_cp_source":"64","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"c6359c2f-4597-4476-b166-5be6a52bcc53","opType":"3","supportSDK":"48","temp_column_name":"头条","browserCardSex":"-1","cpChannelId":"0","cpMark":"0","columnId":"-1","tags":"","ucparam":"{'channelId':0,'cityName':'','ftime':0,'method':'new','recoid':''}","temp_column_id":"-1","v":"8001000","sdkVersion":"2000001","flymeuid":"113543993","nt":"wifi","vn":"8.1.0","deviceinfo":"YEDj4AIQddxlCF4yz/1gg6DYgZfV4NHdPou8LbdQwUD46sYUONm2M9VR5iD2c0s4G/FQW+LAQ4njBO4fj0yylvgMbP4G2bhnKH3OO3js520LRs8fWaz+abwm25gWZMJhFJK7bJEDOCRSC2kiYU6lFOkLE9mc9aXYi/nr91Vq+CU=","pkgName":"com.android.browser","deviceType":"M8710","ip":"","os":"7.1.2-1562065338_stable"}
+[2019-09-12 14:53:15] INFO [case_log_info: cast_log.py, 4] 测试用例：test019
+[2019-09-12 14:53:15] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-12 14:53:15] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:15] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:15] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:15] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:15] INFO [case_log_base: cast_log.py, 14] 测试用例：test019
+[2019-09-12 14:53:15] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-12 14:53:15] INFO [case_log_base: cast_log.py, 16] 请求参数：{"articleId":"1567686289958200","lastReqId":"","algorithmVersion":"JINRITOUTIAO-46","cpType":"84","putdate":"1567587960000","temp_column_cp_source":"84","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"758c13f2-89e0-458c-91dc-af4a544207d1","opType":"3","temp_column_name":"%E8%A7%86%E9%A2%91&supportSDK=48","browserCardSex":"-1","cpChannelId":"46","cpMark":"7","tags":"","columnId":"46","ucparam":"%7B%22channelId%22%3A46%2C%22cityName%22%3A%22%22%2C%22ftime%22%3A0%2C%22method%22%3A%22new%22%2C%22recoid%22%3A%22%22%7D","temp_column_id":"46","goldVersion":"1000000","v":"8002000","sdkVersion":"2002000","flymeuid":"113535901","nt":"wifi","vn":"8.2.0","deviceinfo":"K5tW96U381UAnuksQ%2Brlgj4y2j4mby1XHAhMn3eQ0lhI%2FlLrmCcNmvRWZHrNK6BVGfqyVWbw%2BoJF%0A8U9ODWoigmevBgILfNL4bvUpM8GDFFzQUs%2F02TRqcov3KyyuSblqIRMU0GmBPhGWZdrSdREj7QcU%0AIVnkOe7AwzN4HXhHcfE%3D%0A","pkgName":"com.android.browser","deviceType":"M576","ip":"","os":"5.1-1479146976_stable"}
+
+
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 4] 测试用例：test020
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 5] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 7] 期望结果：code=200
+value=0\1
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:16] INFO [case_log_base: cast_log.py, 14] 测试用例：test020
+[2019-09-12 14:53:16] INFO [case_log_base: cast_log.py, 15] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-12 14:53:16] INFO [case_log_base: cast_log.py, 16] 请求参数：{"source":"6"}
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 4] 测试用例：test021
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:53:16] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:53:16] INFO [case_log_base: cast_log.py, 14] 测试用例：test021
+[2019-09-12 14:53:16] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-12 14:53:16] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"34175513262088325_76_0","businessSubType":"4","content":"不","star":"","image":"","source":"6","materielId":"298200461","sign":"b5cbb875aea8e5c69487789774f96c0e"}
+[2019-09-12 14:54:30] INFO [case_log_info: cast_log.py, 4] 测试用例：test004a
+[2019-09-12 14:54:30] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:54:30] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:30] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:30] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:30] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:30] INFO [case_log_base: cast_log.py, 14] 测试用例：test004a
+[2019-09-12 14:54:30] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:54:30] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.1.0","vc":"8001000","firmware_type":"normal"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test004b
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test004b
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"ua_uc,android_uc,desktop_uc,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"7.12.0","vc":"7012000","firmware_type":"normal"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test004c
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test004c
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.2.0","vc":"8002000","firmware_type":"normal"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test006a
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test006a
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test006b
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test006b
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test010a
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test010a
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test010b
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test010b
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test002
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test002
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test003
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test003
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test003b
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test003b
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-12 14:54:31] INFO [case_log_result: cast_log.py, 20] 期望结果：en.w2546.net
+[2019-09-12 14:54:31] INFO [case_log_result: cast_log.py, 21] 实际结果：en.w2546.net
+[2019-09-12 14:54:31] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test007
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test007
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test009
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test009
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/getUserData
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"imei":"861936030053089"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test011a
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test011a
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"0"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test011b
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：{'state': 1}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test011b
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test011c
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test011c
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-12 14:54:31] INFO [case_log_result: cast_log.py, 20] 期望结果：1
+[2019-09-12 14:54:31] INFO [case_log_result: cast_log.py, 21] 实际结果：1
+[2019-09-12 14:54:31] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test012
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test012
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"city":"深圳市"}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 4] 测试用例：test014
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:31] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 14] 测试用例：test014
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-12 14:54:31] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"25","mzos":"0","screen_size":"1080x1920","device_model":"M15","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867343030050385","searchEngine":"ucwy752250"}
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 4] 测试用例：test016
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:32] INFO [case_log_base: cast_log.py, 14] 测试用例：test016
+[2019-09-12 14:54:32] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-12 14:54:32] INFO [case_log_base: cast_log.py, 16] 请求参数：{"access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1NjgyNzEyNzE1NTEsInMiOiJucyIsImMiOiIxIiwiciI6IkVlTHRTQWFSU2NJOTJKRjIwa0oxIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IkIwNUExRTZGQTVEN0RFMUQ1RkQ4RUI5Q0M4NDgwNTIxIn0", "supportSDK": "48", "videoVersion": "7011001", "v": "8001000", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.1.0", "deviceinfo": "kzUyLtPx5lgl5Rsv3p2XwRx5ihynmNSTUGfFo9EAhyYMPvvkSgTBsS77a2CYvT2bgkbEl+tj9XIC6lwtQFwVuvO4QshspDKee64RnD10+kYKujc/HSuIF7sLNpmzmF3RJ20XALGL2MUB+6dDFnUT2iXkCdSQ10XxQhFp8SZ1ZbU=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "", "os": "6.0-1517987373_I"}
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 4] 测试用例：test018
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:32] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:32] INFO [case_log_base: cast_log.py, 14] 测试用例：test018
+[2019-09-12 14:54:32] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-12 14:54:32] INFO [case_log_base: cast_log.py, 16] 请求参数： {"articleId":"1567574112122001","lastReqId":"","cpType":"64","algorithmVersion":"TENCENT--1","putdate":"1567570868000","temp_column_cp_source":"64","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"c6359c2f-4597-4476-b166-5be6a52bcc53","opType":"3","supportSDK":"48","temp_column_name":"头条","browserCardSex":"-1","cpChannelId":"0","cpMark":"0","columnId":"-1","tags":"","ucparam":"{'channelId':0,'cityName':'','ftime':0,'method':'new','recoid':''}","temp_column_id":"-1","v":"8001000","sdkVersion":"2000001","flymeuid":"113543993","nt":"wifi","vn":"8.1.0","deviceinfo":"YEDj4AIQddxlCF4yz/1gg6DYgZfV4NHdPou8LbdQwUD46sYUONm2M9VR5iD2c0s4G/FQW+LAQ4njBO4fj0yylvgMbP4G2bhnKH3OO3js520LRs8fWaz+abwm25gWZMJhFJK7bJEDOCRSC2kiYU6lFOkLE9mc9aXYi/nr91Vq+CU=","pkgName":"com.android.browser","deviceType":"M8710","ip":"","os":"7.1.2-1562065338_stable"}
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 4] 测试用例：test019
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:33] INFO [case_log_base: cast_log.py, 14] 测试用例：test019
+[2019-09-12 14:54:33] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-12 14:54:33] INFO [case_log_base: cast_log.py, 16] 请求参数：{"articleId":"1567686289958200","lastReqId":"","algorithmVersion":"JINRITOUTIAO-46","cpType":"84","putdate":"1567587960000","temp_column_cp_source":"84","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"758c13f2-89e0-458c-91dc-af4a544207d1","opType":"3","temp_column_name":"%E8%A7%86%E9%A2%91&supportSDK=48","browserCardSex":"-1","cpChannelId":"46","cpMark":"7","tags":"","columnId":"46","ucparam":"%7B%22channelId%22%3A46%2C%22cityName%22%3A%22%22%2C%22ftime%22%3A0%2C%22method%22%3A%22new%22%2C%22recoid%22%3A%22%22%7D","temp_column_id":"46","goldVersion":"1000000","v":"8002000","sdkVersion":"2002000","flymeuid":"113535901","nt":"wifi","vn":"8.2.0","deviceinfo":"K5tW96U381UAnuksQ%2Brlgj4y2j4mby1XHAhMn3eQ0lhI%2FlLrmCcNmvRWZHrNK6BVGfqyVWbw%2BoJF%0A8U9ODWoigmevBgILfNL4bvUpM8GDFFzQUs%2F02TRqcov3KyyuSblqIRMU0GmBPhGWZdrSdREj7QcU%0AIVnkOe7AwzN4HXhHcfE%3D%0A","pkgName":"com.android.browser","deviceType":"M576","ip":"","os":"5.1-1479146976_stable"}
+
+
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 4] 测试用例：test020
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 5] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 7] 期望结果：200
+
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:33] INFO [case_log_base: cast_log.py, 14] 测试用例：test020
+[2019-09-12 14:54:33] INFO [case_log_base: cast_log.py, 15] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-12 14:54:33] INFO [case_log_base: cast_log.py, 16] 请求参数：{"source":"6"}
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 4] 测试用例：test021
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:54:33] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:54:33] INFO [case_log_base: cast_log.py, 14] 测试用例：test021
+[2019-09-12 14:54:33] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-12 14:54:33] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"34175513262088325_76_0","businessSubType":"4","content":"不","star":"","image":"","source":"6","materielId":"298200461","sign":"b5cbb875aea8e5c69487789774f96c0e"}
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 4] 测试用例：test004a
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 4] 测试用例：test004b
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 4] 测试用例：test004c
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:16] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test006a
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test006b
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test010a
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test010b
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test002
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/card/get
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test003
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test003b
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_result: cast_log.py, 20] 期望结果：en.w2546.net
+[2019-09-12 14:56:17] INFO [case_log_result: cast_log.py, 21] 实际结果：en.w2546.net
+[2019-09-12 14:56:17] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test007
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/search_engine/get
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test009
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/getUserData
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test011a
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test011b
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：{'state': 1}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test011c
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/client/getState.do
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_result: cast_log.py, 20] 期望结果：1
+[2019-09-12 14:56:17] INFO [case_log_result: cast_log.py, 21] 实际结果：1
+[2019-09-12 14:56:17] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test012
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test014
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 4] 测试用例：test016
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:17] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 4] 测试用例：test018
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 4] 测试用例：test019
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:18] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 4] 测试用例：test020
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 5] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 7] 期望结果：200
+
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 4] 测试用例：test021
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-12 14:56:19] INFO [case_log_info: cast_log.py, 9] 

@@ -1,6 +1,8 @@
 from test_case.basecase import BaseCase
 import logging
+import json
 from data.getdb import *
+from common.cast_log import *
 
 class TestCase(BaseCase):
 
@@ -12,34 +14,68 @@ class TestCase(BaseCase):
     #     result = self.get_request_code('test_get_https')
     #     self.assertEqual(result[0], result[1])
 
-    """test003——LYX"""
+    # 获取数据库查询结果——LYX
+    def get_expect_db(self,sql):
+        expect = self.db.query_all(sql)
+        return expect
+
+    # 获取数据库查询结果，取第一行第一个——LYX
+    def get_expect_db_0_0(self,sql):
+        expect = self.db.query_0_0(sql)
+        return expect
+
+    """test003黑白名单接口，code校验——LYX"""
     def test_get_test003(self):
         result = self.get_request_code('test003')
         self.assertEqual(result[0],result[1])
 
-    """test011a——LYX"""
+    """test003b黑白名单接口，数据库校验——LYX"""
+    def test_get_test003b(self):
+        result = self.get_response_value('test003b')  #取出接口返回结果的value值
+        #查询数据库，找出政府白名单的第一个值
+        db = self.get_expect_db_0_0("SELECT `value` FROM black_white_list WHERE `type` = 'from_zhengfu_white_list'")
+        #对实际结果的value值做解析，找出政府白名单的值
+        for i in range(len(result)):
+            if result[i]['type'] == 'from_zhengfu_white_list':
+                res = result[i]['value']
+        case_log_result(db,res[0])
+        self.assertEqual(db, res[0])
+
+    """test011a网监黑名单，code校验——LYX"""
     def test_get_test011a(self):
         result = self.get_request_code('test011a')
         self.assertEqual(result[0],result[1])
 
-    """test011b——LYX"""
+    """test011b网监黑名单，value值校验——LYX"""
     def test_get_test011b(self):
         result = self.get_request_value('test011b')
         self.assertEqual(str(result[0]),str(result[1]))
 
-    """test011c——LYX"""
+    """test011c网监黑名单，db校验——LYX"""
     def test_get_test011c(self):
-        result = self.get_request_DB('test011c')
-        self.assertEqual(result[0],result[1])
+        # 取出接口返回结果的value值
+        result = self.get_response_value('test011c')
+        # 取出用例表中的data
+        data = self.get_expect_data('test011c')
+        #查询数据库，target=userId的所有值
+        db = self.get_expect_db("select * from `wangjian_black_list` where target = '%s'" % (json.loads(data)['userId']))
+        result_expect = 1 if db == () else 0
+        case_log_result(result_expect, result['state'])
+        self.assertEqual(result_expect, result['state'])
 
-    """test016——LYX"""
+    """test016获取频道数据接口，code校验——LYX"""
     def test_get_test016(self):
         result = self.get_request_code('test016')
         self.assertEqual(result[0],result[1])
 
-    """test021——LYX"""
+    """test021添加评论接口，code校验——LYX"""
     def test_get_test021(self):
         result = self.get_request_code('test021')
+        self.assertEqual(result[0],result[1])
+
+    """test020新消息提醒，code校验——LYX"""
+    def test_get_test020(self):
+        result = self.get_request_code('test020')
         self.assertEqual(result[0],result[1])
 
     """test004a——LJX"""
