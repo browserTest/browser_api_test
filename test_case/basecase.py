@@ -61,7 +61,6 @@ class BaseCase(unittest.TestCase):
             headers = json.loads(headers)
             headers['access_token'] = self.get_token()
 
-
         # 对接口类型进行判断
         if method.upper() == 'GET':
             # 发送请求后，将结果赋值给res1，注意，get请求传参是用params
@@ -70,7 +69,7 @@ class BaseCase(unittest.TestCase):
            # case_log_base(case_name, url,params)  #打印用例基础信息——LYX
         else:
             # post请求传参用data
-            res1 = requests.post(url = url, data = json.loads(params), headers = json.loads(headers), verify=False)
+            res1 = requests.post(url = url, data = json.loads(params), headers = headers, verify=False)
             case_log_info(case_name, url, expect, res1)
         res = [expect, res1]
         return res
@@ -150,6 +149,32 @@ class BaseCase(unittest.TestCase):
         result_actual = json.loads(res[1].text)['value']
         return result_actual
 
+    """获取接口返回的value-WMW"""
+    def get_request_value2(self,case_name):
+        res = self.get_result(case_name)
+        result_expect = visit_webpage
+        result_actual = json.loads(res[1].text)['value'][0]['value']
+        result = [result_expect,result_actual]
+        return result
+
+    """获取接口返回的值-WMW"""
+    def get_request_value3(self,case_name):
+        res = self.get_result(case_name)
+        if cp_hot_search_list_1 != '':    #判断数据库中是否有值
+            result_expect = str(200)
+        else:
+            result_expect = str(0)
+        result_actual = json.loads(res[1].text)['code']
+        result = [result_expect,result_actual]
+        return result
+
+    """获取接口返回的value-WMW"""
+    def get_request_value4(self,case_name):
+        res = self.get_result(case_name)
+        result_expect = browser_setting_1
+        result_actual = json.loads(res[1].text)['value'][5]['key']
+        result = [result_expect,result_actual]
+        return result
 
 
 

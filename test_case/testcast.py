@@ -153,14 +153,31 @@ class TestCase(BaseCase):
         result = self.get_request_code('test012')
         self.assertEqual(result[0], result[1])
 
-    """test014——WMW"""
-    def test_get_test014(self):
-            result = self.get_request_code('test014')
-            self.assertEqual(result[0], result[1])
-
     """test018——WMW"""
     def test_get_test018(self):
         result = self.get_request_code('test018')
         self.assertEqual(result[0],result[1])
+
+    """test014——WMW"""    #查询数据库
+    def test_get_test014(self):
+            result = self.get_request_code('test014')
+            self.assertEqual(result[0], result[1])
+
+    """test005——WMW"""    # 查询数据库
+    def test_test005a(self):
+        result = self.get_request_value2('test005')
+        self.assertEqual(result[0], result[1])
+
+    """test001——WMW"""    # 查询数据库
+    def test_get_test001(self):
+        result = self.get_request_value4('test001')
+        self.assertEqual(result[0], result[1])
+
+    """test023——WMW"""    #post请求
+    def test_get_test023(self):
+        result = self.get_request_code('test023')
+        self.assertEqual(result[0],result[1])
+
+
 
 
