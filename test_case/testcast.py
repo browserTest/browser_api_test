@@ -124,46 +124,6 @@ class TestCase(BaseCase):
         res = tuple(result[0].values())
         self.assertEqual(search_suggest, res)
 
-    """test002——LCM——校验实际结果与预期结果值都为200"""
-    def test_get_test002(self):
-        # 直接调用结果返回code值的方法，但预期结果值（expect）必须是200，该方法得到的实际结果值是code=200
-        result = self.get_request_code('test002')
-        # 断言预期结果与实际结果是否相等
-        self.assertEqual(result[0], result[1])
-
-    """test002a_LCM（校验实际结果与接口返回的参数预期结果值）"""
-    def test_get_test002a(self):
-        result = self.get_request_value_expect("test002a")
-        print(result)
-        self.assertEqual(str(result[0]), str(result[1]))
-
-    """test002b_LCM（校验实际结果与数据库中查询的预期结果值）"""
-    def test_get_test002b(self):
-        result = self.get_request_value_DB("test002b")
-        print(result)
-        self.assertEqual(str(result[0]), str(result[1]))
-
-    """test007——LCM"""
-    def test_get_test007(self):
-        result = self.get_request_code('test007')
-        self.assertEqual(result[0],result[1])
-
-    """test009——LCM"""
-    def test_get_test009(self):
-        # getUserData接口返回的结果是从大数据那边拿去的数据
-        result = self.get_request_code('test009')
-        self.assertEqual(result[0], result[1])
-
-    """test013——LCM"""
-    def test_get_test013(self):
-        result = self.get_request_code('test013')
-        self.assertEqual(result[0], result[1])
-
-    """test019——LCM"""
-    def test_get_test019(self):
-        result = self.get_request_code('test019')
-        self.assertEqual(result[0], result[1])
-
     """test012——WMW"""      #校验--获取城市信息--实际结果与接口返回的参数预期结果值
     def test_get_test012(self):
         result = self.get_request_code('test012')
@@ -196,4 +156,64 @@ class TestCase(BaseCase):
 
 
 
+
+    """test002_LCM————校验首页导航\背景图\个人中心banner(http://bro.flyme.cn/card/get)实际结果和预期结果中的code值"""
+    def test_get_test002(self):
+        result = self.get_request_code("test002")
+        self.assertEqual(result[0],result[1])
+
+    """test002a_LCM————校验首页导航\背景图\个人中心banner实际结果与接口返回的参数预期结果值"""
+    def test_get_test002a(self):
+        result = self.get_request_value_expect("test002a")
+        self.assertEqual(str(result[0]), str(result[1]))
+
+    """test002b_LCM————校验校验首页导航\背景图\个人中心banner实际结果与数据库中查询的预期结果值"""
+    def test_get_test002b(self):
+        result = self.get_request_value_DB("test002b")
+        self.assertEqual(str(result[0]), str(result[1]))
+
+    """test007_LCM————校验搜索引擎接口实际结果和预期结果中的code值"""
+    def test_get_test007(self):
+        result = self.get_request_code("test007")
+        self.assertEqual(result[0], result[1])
+
+    """test007a_LCM————校验搜索引擎接口实际结果与接口返回value中搜索引擎的预期结果值"""
+    def test_get_test007a(self):
+        result = self.get_request_value_expect("test007a")
+        self.assertEqual(result[0], result[1])
+
+    """test007b_LCM————校验搜索引擎接口实际结果与数据库中查询的预期结果值"""
+    def test_get_test007b(self):
+        result = self.get_request_value_DB("test007b")
+        self.assertEqual(result[0], result[1])
+
+    """test009_LCM————校验负一屏的list.do接口实际结果和预期结果中的code值"""
+    def test_get_test009(self):
+        result = self.get_request_code("test009")
+        self.assertEqual(result[0], result[1])
+
+    """test013_LCM————校验负一屏的list.do接口实际结果和预期结果中的code值"""
+    def test_get_test013(self):
+        result = self.get_request_code("test013")
+        self.assertEqual(result[0], result[1])
+
+    """test013a_LCM————校验负一屏的list.do接口实际结果与接口返回的value预期结果值"""
+    def test_get_test013a(self):
+        result = self.get_request_value_expect("test013a")
+        self.assertEqual(result[0], result[1])
+
+    """test013b_LCM————校验负一屏的list.do接口实际结果与数据库中查询的预期结果值"""
+    def test_get_test013b(self):
+        result = self.get_request_value_DB("test013b")
+        self.assertEqual(result[0], result[1])
+
+    """test019_LCM————校验非推荐频道资讯流接口实际结果和预期结果中的code值"""
+    def test_get_test019(self):
+        result = self.get_request_code("test019")
+        self.assertEqual(result[0], result[1])
+
+    """test022_LCM————校验我的评论接口实际结果和预期结果中的code值"""
+    def test_get_test022(self):
+        result = self.get_request_code("test022")
+        self.assertEqual(result[0], result[1])
 

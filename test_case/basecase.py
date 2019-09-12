@@ -179,34 +179,31 @@ class BaseCase(unittest.TestCase):
 
     """获取数据库的期望值和实际结果中的value值————LCM"""
     def get_request_value_DB(self, case_name):
-        res = self.get_result(case_name)
+        # 调用get_db_data方法获取出该条用例的预期结果值
         result_expect = self.get_db_data(case_name)
-        result_actual = self.get_actual_data(case_name, result_expect)
-        result = [result_expect, result_actual]
-        case_log_info_result(case_name, result_expect, result_actual)
-        return result
-
-    """获取期望值和实际结果中的value值————LCM"""
-    def get_request_value_expect(self, case_name):
-        res = self.get_result(case_name)
-        result_expect = res[0]
-        # actual = json.loads(res[1].text)['value']['engines'][0]
-        # result_actual = str({key: value for key, value in actual.items() if value == 'sm.cn'})
-        actual = json.loads(res[1].text)['value'][2]['data'][0]['data'][3]
-        result_actual = str({key: value for key, value in actual.items() if key == "title"})
-        # actual = json.loads(res[1].text)['value'][0]
-        # result_actual = str({key: value for key, value in actual.items() if key == "title"})
-        # # result_actual = self.get_actual_data(case_name,result_expect)
+        # 调用get_actual_data方法获取出该条用例的实际结果值
+        result_actual = self.get_actual_data(case_name,result_expect)
         result = [result_expect, result_actual]
         case_log_info_result(case_name,result_expect, result_actual)
         return result
 
 
+    """获取期望值和实际结果中的value值————LCM"""
+    def get_request_value_expect(self, case_name):
+        res = self.get_result(case_name)
+        # 取出预期结果值转换为int类型并赋值
+        result_expect = res[0]
+        # 调用get_actual_data方法获取出该条用例的实际结果值
+        result_actual = self.get_actual_data(case_name,result_expect)
+        result = [result_expect, result_actual]
+        case_log_info_result(case_name,result_expect, result_actual)
+        return result
 
-    """判断当前执行的用例，并给当前执行的用例赋数据库的期望值————LCM"""
+    """判断当前执行的用例是否存在，存在则给当前执行的用例赋数据库的期望值————LCM"""
     def get_db_data(self,case_name):
         for i in range(len(case_name)):
             if case_name == "test013b":
+                # 使用sql查询语句得到的值直接赋值给预期结果值
                 result_expect = nav
                 return result_expect
             if case_name == "test007b":
@@ -215,6 +212,46 @@ class BaseCase(unittest.TestCase):
             if case_name == "test002b":
                 result_expect = novel
                 return result_expect
+
+
+    """判断当前执行的用例是否存在，存在则给当前执行的用例赋实际结果值————LCM"""
+    def get_actual_data(self, case_name, result_expect):
+        # 通过用例名称查询当前返回的实际结果值，根据实际结果取出该条用例需要的实际结果值
+        res = self.get_result(case_name)
+        for i in range(len(case_name)):
+            if case_name == "test013b" and result_expect == "网址导航":
+                # 获取实际结果值中的title值
+                result_actual = json.loads(res[1].text)['value'][0]['title']
+                return result_actual
+            elif case_name == "test013a":
+                # 获取实际结果中value的第一个值，且返回的数据是字典格式
+                actual = json.loads(res[1].text)['value'][0]
+                # 通过循环获取actual中key的title值
+                result_actual = str({key: value for key, value in actual.items() if key == "title"})
+                return result_actual
+
+            if case_name == "test007b" and result_expect == "sm.cn":
+                # 获取实际结果值中的home_page值
+                result_actual = json.loads(res[1].text)['value']['engines'][0]['home_page']
+                return result_actual
+
+            elif case_name == "test007a":
+                # 获取实际结果中value指定的值
+                actual = json.loads(res[1].text)['value']['engines'][0]
+                # 通过循环获取actual中value的值
+                result_actual = str({key: value for key, value in actual.items() if value == 'sm.cn'})
+                return result_actual
+
+            if case_name == "test002b" and result_expect == "热门小说":
+                # 获取实际结果值中的title值
+                result_actual = json.loads(res[1].text)['value'][2]['data'][0]['data'][3]['title']
+                return result_actual
+            elif case_name == "test002a":
+                # 获取实际结果中value指定的值
+                actual = json.loads(res[1].text)['value'][2]['data'][0]['data'][3]
+                # 通过循环获取actual中key的title值
+                result_actual = str({key: value for key, value in actual.items() if key == "title"})
+                return result_actual
 
 
 
