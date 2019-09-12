@@ -27,6 +27,11 @@ browser_setting_1 = db1.query_0_0("SELECT `KEY` FROM browser_setting WHERE VALUE
 cp_hot_search_list_1 = db1.query_all("SELECT * FROM `cp_hot_search_list` WHERE `from`='9'")
 
 
-
+title = db1.query_all("select * from card_item where title='热门小说'")
+novel = title[0][3]
+home_page = db1.query_all("select * from search_engine_unit where home_page='sm.cn'")
+search = home_page[0][4]
+navigation = db1.query_all("select * from site_square_group LEFT JOIN site_square_unit on site_square_group.id = site_square_unit.group_id where title = '网址导航' and group_id = 5")
+nav = navigation[0][7]
 
 

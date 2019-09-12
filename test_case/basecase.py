@@ -2,12 +2,14 @@ import requests
 import json
 import unittest
 
+
 from common.get_excel_data import *
 from common.cast_log import *
 from data.db import DB   #引入数据库——LYX
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 # 禁用安全请求警告——LYX
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+from common.cast_log import *
 
 from data.getdb import *
 
@@ -176,13 +178,44 @@ class BaseCase(unittest.TestCase):
         result = [result_expect,result_actual]
         return result
 
+    """获取数据库的期望值和实际结果中的value值————LCM"""
+    def get_request_value_DB(self, case_name):
+        res = self.get_result(case_name)
+        result_expect = self.get_db_data(case_name)
+        result_actual = self.get_actual_data(case_name, result_expect)
+        result = [result_expect, result_actual]
+        case_log_info_result(case_name, result_expect, result_actual)
+        return result
+
+    """获取期望值和实际结果中的value值————LCM"""
+    def get_request_value_expect(self, case_name):
+        res = self.get_result(case_name)
+        result_expect = res[0]
+        # actual = json.loads(res[1].text)['value']['engines'][0]
+        # result_actual = str({key: value for key, value in actual.items() if value == 'sm.cn'})
+        actual = json.loads(res[1].text)['value'][2]['data'][0]['data'][3]
+        result_actual = str({key: value for key, value in actual.items() if key == "title"})
+        # actual = json.loads(res[1].text)['value'][0]
+        # result_actual = str({key: value for key, value in actual.items() if key == "title"})
+        # # result_actual = self.get_actual_data(case_name,result_expect)
+        result = [result_expect, result_actual]
+        case_log_info_result(case_name,result_expect, result_actual)
+        return result
 
 
 
-
-
-
-
+    """判断当前执行的用例，并给当前执行的用例赋数据库的期望值————LCM"""
+    def get_db_data(self,case_name):
+        for i in range(len(case_name)):
+            if case_name == "test013b":
+                result_expect = nav
+                return result_expect
+            if case_name == "test007b":
+                result_expect = search
+                return result_expect
+            if case_name == "test002b":
+                result_expect = novel
+                return result_expect
 
 
 

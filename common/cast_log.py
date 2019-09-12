@@ -20,3 +20,11 @@ def case_log_result(expect_result, actual_result):
     logging.info("期望结果：{}".format(expect_result))
     logging.info("实际结果：{}".format(actual_result))
     logging.info("")
+
+
+"""打印当前执行用例的期望值和实际结果值——LCM"""
+def case_log_info_result(name, result_expect, result_actual):
+    logging.info("测试用例：{}".format(name))
+    logging.info("期望结果：{}".format(result_expect))
+    logging.info("实际结果：{}".format(result_actual))
+    logging.info("")

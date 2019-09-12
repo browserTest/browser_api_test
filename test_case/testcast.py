@@ -86,6 +86,7 @@ class TestCase(BaseCase):
     """test004b——LJX"""
     def test004b(self):
         result = self.get_response_value('test004b')
+        print(result)
         for i in range(len(result)):
             if result[i]['type'] == 'android_uc':
                 res = result[i]['value']
@@ -130,6 +131,17 @@ class TestCase(BaseCase):
         # 断言预期结果与实际结果是否相等
         self.assertEqual(result[0], result[1])
 
+    """test002a_LCM（校验实际结果与接口返回的参数预期结果值）"""
+    def test_get_test002a(self):
+        result = self.get_request_value_expect("test002a")
+        print(result)
+        self.assertEqual(str(result[0]), str(result[1]))
+
+    """test002b_LCM（校验实际结果与数据库中查询的预期结果值）"""
+    def test_get_test002b(self):
+        result = self.get_request_value_DB("test002b")
+        print(result)
+        self.assertEqual(str(result[0]), str(result[1]))
 
     """test007——LCM"""
     def test_get_test007(self):
@@ -142,10 +154,14 @@ class TestCase(BaseCase):
         result = self.get_request_code('test009')
         self.assertEqual(result[0], result[1])
 
+    """test013——LCM"""
+    def test_get_test013(self):
+        result = self.get_request_code('test013')
+        self.assertEqual(result[0], result[1])
+
     """test019——LCM"""
     def test_get_test019(self):
         result = self.get_request_code('test019')
-        print(result)
         self.assertEqual(result[0], result[1])
 
     """test012——WMW"""
