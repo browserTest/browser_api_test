@@ -162,11 +162,10 @@ class BaseCase(unittest.TestCase):
     """获取接口返回的值-WMW"""
     def get_request_value3(self,case_name):
         res = self.get_result(case_name)
-        if cp_hot_search_list_1 != '':    #判断数据库中是否有值
-            result_expect = str(200)
-        else:
-            result_expect = str(0)
-        result_actual = json.loads(res[1].text)['code']
+        result_expect = res[0]       #取表中的预期结果值not null
+        result_actual = json.loads(res[1].text)['value'][0]     #取实际结果中的value值得第一条数据
+        if result_actual != "":        #当实际结果值不为空时,赋值not null
+            result_actual = "not null"
         result = [result_expect,result_actual]
         return result
 

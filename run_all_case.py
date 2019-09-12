@@ -7,7 +7,7 @@ from config.config import *
 
 """整合用例"""
 suite = unittest.TestSuite()
-suite.addTest(TestCase('test_get_test002a'))
+suite.addTest(TestCase('test_get_test014'))
 
 
 # suite = unittest.TestLoader().loadTestsFromTestCase(TestCase)

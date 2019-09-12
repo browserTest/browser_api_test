@@ -164,32 +164,32 @@ class TestCase(BaseCase):
         result = self.get_request_code('test019')
         self.assertEqual(result[0], result[1])
 
-    """test012——WMW"""
+    """test012——WMW"""      #校验--获取城市信息--实际结果与接口返回的参数预期结果值
     def test_get_test012(self):
         result = self.get_request_code('test012')
         self.assertEqual(result[0], result[1])
 
-    """test018——WMW"""
+    """test018——WMW"""    #校验--推荐频道资讯流--实际结果与接口返回的参数预期结果值
     def test_get_test018(self):
         result = self.get_request_code('test018')
         self.assertEqual(result[0],result[1])
 
-    """test014——WMW"""    #查询数据库
+    """test014——WMW"""    #未查询数据库---搜索热词,直接校验接口返回的数据是否为空
     def test_get_test014(self):
-            result = self.get_request_code('test014')
+            result = self.get_request_value3('test014')
             self.assertEqual(result[0], result[1])
 
-    """test005——WMW"""    # 查询数据库
-    def test_test005a(self):
+    """test005——WMW"""    # 查询数据库--基础数据的value值与实际结果value值对比
+    def test_test005(self):
         result = self.get_request_value2('test005')
         self.assertEqual(result[0], result[1])
 
-    """test001——WMW"""    # 查询数据库
+    """test001——WMW"""    # 查询数据库--配置项--有待更改
     def test_get_test001(self):
         result = self.get_request_value4('test001')
         self.assertEqual(result[0], result[1])
 
-    """test023——WMW"""    #post请求
+    """test023——WMW"""    #校验--获取我的消息--post请求接口返回的code值与期望结果值
     def test_get_test023(self):
         result = self.get_request_code('test023')
         self.assertEqual(result[0],result[1])

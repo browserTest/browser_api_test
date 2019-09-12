@@ -24,7 +24,6 @@ visit_webpage = db1.query_0_0("select value from `base_data` where TYPE = 'visit
 
 browser_setting_1 = db1.query_0_0("SELECT `KEY` FROM browser_setting WHERE VALUE = 'https://image-res.mzres.com/image/bro/bb0c738aae38454b84d08226348be939z'")
 
-cp_hot_search_list_1 = db1.query_all("SELECT * FROM `cp_hot_search_list` WHERE `from`='9'")
 
 
 title = db1.query_all("select * from card_item where title='热门小说'")
