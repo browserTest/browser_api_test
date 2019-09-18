@@ -54,13 +54,15 @@ class BaseCase(unittest.TestCase):
         # expect = self.get_expect_result(case_data)
         headers = case_data.get('headers')
 
+        if headers:
+            headers = json.loads(headers)
+
         # 增加判断，请求参数中若含有access_token，则对其更新——LYX
         if 'access_token' in params:
             params = json.loads(params)
             params['access_token'] = self.get_token()
             params = json.dumps(params)
         if 'access_token' in headers:
-            headers = json.loads(headers)
             headers['access_token'] = self.get_token()
 
         # 对接口类型进行判断

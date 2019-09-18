@@ -86,7 +86,7 @@ class TestCase(BaseCase):
     """test004b——LJX"""
     def test004b(self):
         result = self.get_response_value('test004b')
-        print(result)
+        android_uc = self.db.query_0_0("SELECT VALUE FROM `base_data` WHERE TYPE = 'android_uc'")
         for i in range(len(result)):
             if result[i]['type'] == 'android_uc':
                 res = result[i]['value']
@@ -95,6 +95,7 @@ class TestCase(BaseCase):
     """test004b——LJX"""
     def test004c(self):
         result = self.get_response_value('test004c')
+        android_360 = self.db.query_0_0("SELECT VALUE FROM `base_data` WHERE TYPE = 'android_360'")
         for i in range(len(result)):
             if result[i]['type'] == 'android_360':
                 res = result[i]['value']
@@ -108,6 +109,7 @@ class TestCase(BaseCase):
     """test006b——LJX"""
     def test006b(self):
         result = self.get_response_value('test006b')
+        zhengfu_black_host = self.db.query_0_0("SELECT VALUE FROM `bloom_config` WHERE `KEY` = 'zhengfu_black_host'")
         for i in range(len(result)):
             if result[i]['key'] == 'zhengfu_black_host':
                 res = result[i]['value']
@@ -121,8 +123,40 @@ class TestCase(BaseCase):
     """test010b——LJX"""
     def test010b(self):
         result = self.get_response_value('test010b')
+        search_suggest = self.db.query_0("SELECT keyword,url,weight FROM search_suggest")
         res = tuple(result[0].values())
         self.assertEqual(search_suggest, res)
+
+    """test015a——LJX"""
+    def test015a(self):
+        result = self.get_request_code('test015a')
+        self.assertEqual(result[0], result[1])
+
+    """test015b——LJX"""
+    def test015b(self):
+        result = self.get_response_value('test015b')
+        self.assertIsNotNone(result)
+
+    """test017a——LJX"""
+    def test017a(self):
+        result = self.get_request_code('test017a')
+        self.assertEqual(result[0], result[1])
+
+    """test017b——LJX"""
+    def test017b(self):
+        result = self.get_response_value('test017b')
+        self.assertIsNotNone(result)
+
+    """test024a——LJX"""
+    def test024a(self):
+        result = self.get_request_code('test024a')
+        self.assertEqual(result[0], result[1])
+
+    """test024b——LJX"""
+    def test024b(self):
+        result = self.get_response_value('test024b')
+        self.assertIsNotNone(result)
+
 
     """test012——WMW"""      #校验--获取城市信息--实际结果与接口返回的参数预期结果值
     def test_get_test012(self):
