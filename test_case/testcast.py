@@ -78,6 +78,27 @@ class TestCase(BaseCase):
         result = self.get_request_code('test020')
         self.assertEqual(result[0],result[1])
 
+    """test025更新频道订阅状态，code校验——LYX"""
+    def test_get_test025(self):
+        result = self.get_request_code('test025')
+        self.assertEqual(result[0],result[1])
+
+    """test026美女频道标签获取接口，code校验——LYX"""
+    def test_get_test026(self):
+        result = self.get_request_code('test026')
+        self.assertEqual(result[0],result[1])
+
+    """test026b美女频道标签获取接口，value校验——LYX"""
+    def test_get_test026b(self):
+        result = self.get_response_value('test026b')
+        self.assertIsNotNone(result)
+
+    """test027美女频道标签获取接口，code校验——LYX"""
+    def test_get_test027(self):
+        result = self.get_request_code('test027')
+        self.assertEqual(result[0],result[1])
+
+
     """test004a——LJX"""
     def test004a(self):
         result = self.get_request_code('test004a')

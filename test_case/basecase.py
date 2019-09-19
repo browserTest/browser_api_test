@@ -69,12 +69,12 @@ class BaseCase(unittest.TestCase):
         if method.upper() == 'GET':
             # 发送请求后，将结果赋值给res1，注意，get请求传参是用params
             res1 = requests.get(url = url, params = json.loads(params),headers = headers, verify=False)
-            case_log_info(case_name, url, expect, res1)
-           # case_log_base(case_name, url,params)  #打印用例基础信息——LYX
+           #  case_log_info(case_name, url, expect, res1)
         else:
             # post请求传参用data
             res1 = requests.post(url = url, data = json.loads(params), headers = headers, verify=False)
             case_log_info(case_name, url, expect, res1)
+        case_log_base(case_name, url, params)  # 打印用例基础信息——LYX
         res = [expect, res1]
         return res
 
