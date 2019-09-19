@@ -19,9 +19,9 @@ db1 = DB()
 
 
 
-visit_webpage = db1.query_0_0("select value from `base_data` where TYPE = 'visit_webpage'")
+#visit_webpage = db1.query_0_0("select value from `base_data` where TYPE = 'visit_webpage'")
 
-browser_setting_1 = db1.query_0_0("SELECT `KEY` FROM browser_setting WHERE VALUE = 'https://image-res.mzres.com/image/bro/bb0c738aae38454b84d08226348be939z'")
+#browser_setting_1 = db1.query_0_0("SELECT VALUE FROM `browser_setting` WHERE `key`='useConfigReaderJs'")
 
 
 

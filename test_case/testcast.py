@@ -199,7 +199,7 @@ class TestCase(BaseCase):
         result = self.get_request_value2('test005')
         self.assertEqual(result[0], result[1])
 
-    """test001——WMW"""    # 查询数据库--配置项--有待更改
+    """test001——WMW"""    # 查询数据库--配置项--基础数据的value值与实际结果value值对比
     def test_get_test001(self):
         result = self.get_request_value4('test001')
         self.assertEqual(result[0], result[1])

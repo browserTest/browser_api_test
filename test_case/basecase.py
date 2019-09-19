@@ -156,7 +156,7 @@ class BaseCase(unittest.TestCase):
     """获取接口返回的value-WMW"""
     def get_request_value2(self,case_name):
         res = self.get_result(case_name)
-        result_expect = visit_webpage
+        result_expect = self.db.query_0_0("select value from `base_data` where TYPE = 'visit_webpage'")
         result_actual = json.loads(res[1].text)['value'][0]['value']
         result = [result_expect,result_actual]
         return result
@@ -174,8 +174,8 @@ class BaseCase(unittest.TestCase):
     """获取接口返回的value-WMW"""
     def get_request_value4(self,case_name):
         res = self.get_result(case_name)
-        result_expect = browser_setting_1
-        result_actual = json.loads(res[1].text)['value'][5]['key']
+        result_expect = self.db.query_0_0("SELECT VALUE FROM `browser_setting` WHERE `key`='useConfigReaderJs'")
+        result_actual = json.loads(res[1].text)['value'][11]['value']
         result = [result_expect,result_actual]
         return result
 

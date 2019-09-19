@@ -3812,3 +3812,600 @@
 [2019-09-18 18:43:55] INFO [case_log_info: cast_log.py, 7] 期望结果：查数据库校验value
 [2019-09-18 18:43:55] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
 [2019-09-18 18:43:55] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test004a
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.1.0","vc":"8001000","firmware_type":"normal"}
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test004b
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"ua_uc,android_uc,desktop_uc,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"7.12.0","vc":"7012000","firmware_type":"normal"}
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test004c
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.2.0","vc":"8002000","firmware_type":"normal"}
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test006a
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test006b
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test010a
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test010b
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test015a
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/v2700/columns/subscribe
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{"supportSDK":"48","videoVersion":"7011001","v":"7012000","sdkVersion":"1001004","flymeuid":"","nt":"wifi","vn":"7.12.0","deviceinfo":"If/JiY3Vuyw0ugRAt67MBiH1meVzHOQJxJp00KMF1F/5TUG1QygNRmYC2eVCX60Lrm0Wep148uxIepvp4TrTLHPpGckyhKOMo7fLaaoUXdiP8W6X8qf1sznQygj3UPwFlumsr73oHv2hzOogdpzZI1C924jaZQ4v1UIeUbSlRqk=","pkgName":"com.android.browser","deviceType":"M68B0","ip":"172.29.60.58","os":"6.0-1517987373_I"}
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test015b
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/v2700/columns/subscribe
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{"supportSDK":"48","videoVersion":"7011001","v":"7012000","sdkVersion":"1001004","flymeuid":"","nt":"wifi","vn":"7.12.0","deviceinfo":"If/JiY3Vuyw0ugRAt67MBiH1meVzHOQJxJp00KMF1F/5TUG1QygNRmYC2eVCX60Lrm0Wep148uxIepvp4TrTLHPpGckyhKOMo7fLaaoUXdiP8W6X8qf1sznQygj3UPwFlumsr73oHv2hzOogdpzZI1C924jaZQ4v1UIeUbSlRqk=","pkgName":"com.android.browser","deviceType":"M68B0","ip":"172.29.60.58","os":"6.0-1517987373_I"}
+[2019-09-19 18:56:44] INFO [case_log_info: cast_log.py, 4] 测试用例：test017a
+[2019-09-19 18:56:44] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:56:44] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:56:44] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 18:56:44] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:56:44] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 14] 测试用例：test017a
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:56:44] INFO [case_log_base: cast_log.py, 16] 请求参数：{"v": "8000005", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.0.5", "deviceinfo": "j+kuJDOuZEzmwERbCsxpUO9FJlwHJcgyYiHuQgw1HS+Hdf0LAtvt8Dauyn+AjtghddbxcQWZvy1j+OnyPQWOwDHo4MXKApRjyZgyaCAwnjgL9WwU6XLk3Sk6uB5VdvRtyI80CVhn+XYxTSML/2ztYxJOnucKLDeDRCaZb9UHwyQ=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "172.18.8.143", "os": "6.0-1517987373_I", "access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA2MDI4ODEsInMiOiJucyIsImMiOiIxIiwiciI6Im9kTUNGcDlXd29rZjdhUVY0bXZNIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IjNBMDRFNzU1MjgyNjJDREI5MTE4Q0Q0NkRFNkM3MzFEIn0", "orders": "9,29,55,21,2,46,30,6,41"}
+[2019-09-19 18:56:45] INFO [case_log_info: cast_log.py, 4] 测试用例：test017b
+[2019-09-19 18:56:45] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:56:45] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:56:45] INFO [case_log_info: cast_log.py, 7] 期望结果：value不为空
+[2019-09-19 18:56:45] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:56:45] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test017b
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"v": "8000005", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.0.5", "deviceinfo": "j+kuJDOuZEzmwERbCsxpUO9FJlwHJcgyYiHuQgw1HS+Hdf0LAtvt8Dauyn+AjtghddbxcQWZvy1j+OnyPQWOwDHo4MXKApRjyZgyaCAwnjgL9WwU6XLk3Sk6uB5VdvRtyI80CVhn+XYxTSML/2ztYxJOnucKLDeDRCaZb9UHwyQ=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "172.18.8.143", "os": "6.0-1517987373_I", "access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA2MDMxMjYsInMiOiJucyIsImMiOiIxIiwiciI6ImFiQkh2SVlmNXQ2UmdxUGJSek96IiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IjY2NUEyMkQ3MkZDNkExNjEyMjMzMUFEMDI2Rjc5NDY4In0", "orders": "9,29,55,21,2,46,30,6,41"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test024a
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/comment/list
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"0N3ZBRxL_81_0","businessSubType":"4","offset":"10","count":"10","materielId":"71438959"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test024b
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/comment/list
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"0N3ZBRxL_81_0","businessSubType":"4","offset":"10","count":"10","materielId":"71438959"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test001
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/bro_setting/get
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861936030053089","userData":"{'userTag':'ljx_861936030053089','sex':-1,'activeTime':1523326623000}"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test002
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test002a
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test002a
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test002a
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 28] 期望结果：{'title': '热门小说'}
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 29] 实际结果：{'title': '热门小说'}
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test002b
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test002b
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 28] 期望结果：热门小说
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 29] 实际结果：热门小说
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test003
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test003b
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-19 18:56:45] INFO [case_log_result: cast_log.py, 20] 期望结果：en.w2546.net
+[2019-09-19 18:56:45] INFO [case_log_result: cast_log.py, 21] 实际结果：en.w2546.net
+[2019-09-19 18:56:45] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test007
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test007a
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test007a
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test007a
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 28] 期望结果：{'home_page': 'sm.cn'}
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 29] 实际结果：{'home_page': 'sm.cn'}
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test007b
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test007b
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 28] 期望结果：sm.cn
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 29] 实际结果：sm.cn
+[2019-09-19 18:56:45] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test009
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/getUserData
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"imei":"861936030053089"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test011a
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"0"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test011b
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test011c
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-19 18:56:45] INFO [case_log_result: cast_log.py, 20] 期望结果：1
+[2019-09-19 18:56:45] INFO [case_log_result: cast_log.py, 21] 实际结果：1
+[2019-09-19 18:56:45] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 14] 测试用例：test012
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-19 18:56:45] INFO [case_log_base: cast_log.py, 16] 请求参数：{"city":"深圳市"}
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 14] 测试用例：test013
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 14] 测试用例：test013a
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 14] 测试用例：test013a
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:56:46] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test013a
+[2019-09-19 18:56:46] INFO [case_log_info_result: cast_log.py, 28] 期望结果：{'title': '网址导航'}
+[2019-09-19 18:56:46] INFO [case_log_info_result: cast_log.py, 29] 实际结果：{'title': '网址导航'}
+[2019-09-19 18:56:46] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 14] 测试用例：test013b
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:56:46] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test013b
+[2019-09-19 18:56:46] INFO [case_log_info_result: cast_log.py, 28] 期望结果：网址导航
+[2019-09-19 18:56:46] INFO [case_log_info_result: cast_log.py, 29] 实际结果：网址导航
+[2019-09-19 18:56:46] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 14] 测试用例：test014
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":24,"mzos":0,"screen_size":"1440x2560","device_model":"PRO7Plus","v":"8.2.0","vc":8002000,"firmware_type":"normal","imei":"863098030135628","searchEngine":"sogou","userData":"{'userTag':'','sex':-1,'activeTime':1523519338000}"}
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 14] 测试用例：test016
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 16] 请求参数：{"access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA2MDQzNjYsInMiOiJucyIsImMiOiIxIiwiciI6IjhvanBlUDRZbHRGWGhqbFhDemY4IiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IkIwNzI1MUJDNjJFMDg3ODg3QjRGNjA1MUU1Q0JCNjlBIn0", "supportSDK": "48", "videoVersion": "7011001", "v": "8001000", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.1.0", "deviceinfo": "kzUyLtPx5lgl5Rsv3p2XwRx5ihynmNSTUGfFo9EAhyYMPvvkSgTBsS77a2CYvT2bgkbEl+tj9XIC6lwtQFwVuvO4QshspDKee64RnD10+kYKujc/HSuIF7sLNpmzmF3RJ20XALGL2MUB+6dDFnUT2iXkCdSQ10XxQhFp8SZ1ZbU=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "", "os": "6.0-1517987373_I"}
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 14] 测试用例：test018
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-19 18:56:46] INFO [case_log_base: cast_log.py, 16] 请求参数： {"articleId":"1567574112122001","lastReqId":"","cpType":"64","algorithmVersion":"TENCENT--1","putdate":"1567570868000","temp_column_cp_source":"64","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"c6359c2f-4597-4476-b166-5be6a52bcc53","opType":"3","supportSDK":"48","temp_column_name":"头条","browserCardSex":"-1","cpChannelId":"0","cpMark":"0","columnId":"-1","tags":"","ucparam":"{'channelId':0,'cityName':'','ftime':0,'method':'new','recoid':''}","temp_column_id":"-1","v":"8001000","sdkVersion":"2000001","flymeuid":"113543993","nt":"wifi","vn":"8.1.0","deviceinfo":"YEDj4AIQddxlCF4yz/1gg6DYgZfV4NHdPou8LbdQwUD46sYUONm2M9VR5iD2c0s4G/FQW+LAQ4njBO4fj0yylvgMbP4G2bhnKH3OO3js520LRs8fWaz+abwm25gWZMJhFJK7bJEDOCRSC2kiYU6lFOkLE9mc9aXYi/nr91Vq+CU=","pkgName":"com.android.browser","deviceType":"M8710","ip":"","os":"7.1.2-1562065338_stable"}
+[2019-09-19 18:56:47] INFO [case_log_base: cast_log.py, 14] 测试用例：test019
+[2019-09-19 18:56:47] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-19 18:56:47] INFO [case_log_base: cast_log.py, 16] 请求参数：
+{"articleId":"1567686289958200","lastReqId":"","algorithmVersion":"JINRITOUTIAO-46","cpType":"84","putdate":"1567587960000","temp_column_cp_source":"84","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"758c13f2-89e0-458c-91dc-af4a544207d1","opType":"3","temp_column_name":"%E8%A7%86%E9%A2%91&supportSDK=48","browserCardSex":"-1","cpChannelId":"46","cpMark":"7","tags":"","columnId":"46","ucparam":"%7B%22channelId%22%3A46%2C%22cityName%22%3A%22%22%2C%22ftime%22%3A0%2C%22method%22%3A%22new%22%2C%22recoid%22%3A%22%22%7D","temp_column_id":"46","goldVersion":"1000000","v":"8002000","sdkVersion":"2002000","flymeuid":"113535901","nt":"wifi","vn":"8.2.0","deviceinfo":"K5tW96U381UAnuksQ%2Brlgj4y2j4mby1XHAhMn3eQ0lhI%2FlLrmCcNmvRWZHrNK6BVGfqyVWbw%2BoJF%0A8U9ODWoigmevBgILfNL4bvUpM8GDFFzQUs%2F02TRqcov3KyyuSblqIRMU0GmBPhGWZdrSdREj7QcU%0AIVnkOe7AwzN4HXhHcfE%3D%0A","pkgName":"com.android.browser","deviceType":"M576","ip":"","os":"5.1-1479146976_stable"}
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 14] 测试用例：test020
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 15] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 16] 请求参数：{"source":"6"}
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 14] 测试用例：test021
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"34175513262088325_76_0","businessSubType":"4","content":"不","star":"","image":"","source":"6","materielId":"298200461","sign":"b5cbb875aea8e5c69487789774f96c0e"}
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 4] 测试用例：test022
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/my/comment/list
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 14] 测试用例：test022
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/my/comment/list
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 16] 请求参数：{"source":6,"count":10,"offset":0,"videoCpId":-1}
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 4] 测试用例：test023
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/message
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:56:48] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 14] 测试用例：test023
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/message
+[2019-09-19 18:56:48] INFO [case_log_base: cast_log.py, 16] 请求参数：{"offset":"0","count":"10","source":"6","readCount":"-1","unreadCount":"-1","videoCpId":"-1"}
+[2019-09-19 18:56:49] INFO [case_log_info: cast_log.py, 4] 测试用例：test025
+[2019-09-19 18:56:49] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:56:49] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:56:49] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 18:56:49] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:56:49] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 14] 测试用例：test025
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 16] 请求参数：{"deviceType": "M9230", "os": "9-1558982340_I", "v": "8002000", "nt": "wifi", "goldVersion": "1000000", "flymeuid": "125444470", "pkgName": "com.android.browser", "ip=&vn": "8.2.0", "sdkVersion": "2002000", "deviceinfo": "qT4AiD5scUaM6%2B4TLqDCH3Iww5AynmjM1h0TMWYbEkZ%2BoErOyZ%2F%2Fky%2FffcFGtF%2FuRDFpvhhs9NL9%0A30TJVtqjLeUocZzNAuU2SLRFciX8QheaPN3StO4%2FKeqPiOivXoPqmKa5ytnvKLaL3cjyp83mLyKe%0A1lqzggY2d0%2FnC3dPaqA%3D%0A", "access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA2MDcwMzIsInMiOiJucyIsImMiOiIxIiwiciI6ImdFYjF6alFVUFlONjFEQ3R1SVUzIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IkVBOUEwMzMzNkRCNjBDRDBGNDJCQUI1NzhCMjM3QUNGIn0", "orders": "458%2C516%2C524%2C356%2C517"}
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 14] 测试用例：test026
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/imgColumnLabelNew
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 16] 请求参数：{"deviceType":"M9230","os":"9-1558982340_I","v":"8002000","nt":"wifi","goldVersion":"1000000","flymeuid":"113516747","pkgName":"com.android.browser","ip=&vn":"8.2.0","sdkVersion":"2002000","deviceinfo":"SLwFi7BmgYAnx8UFEBAbObh2Vp3Lwzn3LI8UifAsBTDkzYi5ihACABztOvktdCqnvBgV1zgvbp%2Bd%0AdypnQbF%2BJRripQaZJiDuYH1nld588kSXOoyIrqNoja%2Bw0zwFgX%2B6q%2FOGyQ0kJO%2FkG%2BmV%2F4Ww%2BSyP%0A7rca9WLx0jORQR36Mpo%3D%0A"}
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 14] 测试用例：test026b
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/imgColumnLabelNew
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 16] 请求参数：{"deviceType":"M9230","os":"9-1558982340_I","v":"8002000","nt":"wifi","goldVersion":"1000000","flymeuid":"113516747","pkgName":"com.android.browser","ip=&vn":"8.2.0","sdkVersion":"2002000","deviceinfo":"SLwFi7BmgYAnx8UFEBAbObh2Vp3Lwzn3LI8UifAsBTDkzYi5ihACABztOvktdCqnvBgV1zgvbp%2Bd%0AdypnQbF%2BJRripQaZJiDuYH1nld588kSXOoyIrqNoja%2Bw0zwFgX%2B6q%2FOGyQ0kJO%2FkG%2BmV%2F4Ww%2BSyP%0A7rca9WLx0jORQR36Mpo%3D%0A"}
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 14] 测试用例：test027
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/img/channelImgList
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 16] 请求参数：{"position":"15687948609955","type":"4","deviceType":"M9230","os":"9-1558982340_I","v":"8002000","nt":"wifi","goldVersion":"1000000","flymeuid":"113516747","pkgName":"com.android.browser","ip=&vn":"8.2.0","sdkVersion":"2002000","deviceinfo":"V8w1DMfWrZkimyd%2BzwU2UOHLH7pFKidDlVeBgWQAt6gKO6UoOz0D%2Bj15p5fOt1q4L7UJeo4wZjfu%0AaGXwtoZvbv4tw22pYYFjT1GMbPqTwTrExkpJuxeHnjjX7rbgXnGSBcbBN5jLjlsTSBOySfJxULtF%0A3Ljzd%2BEyK7tOycXU8sI%3D%0A"}
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 14] 测试用例：test005
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 18:56:49] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"visit_webpage"}
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test004a
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.1.0","vc":"8001000","firmware_type":"normal"}
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test004b
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"ua_uc,android_uc,desktop_uc,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"7.12.0","vc":"7012000","firmware_type":"normal"}
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test004c
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.2.0","vc":"8002000","firmware_type":"normal"}
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test006a
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test006b
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test010a
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test010b
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test015a
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/v2700/columns/subscribe
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{"supportSDK":"48","videoVersion":"7011001","v":"7012000","sdkVersion":"1001004","flymeuid":"","nt":"wifi","vn":"7.12.0","deviceinfo":"If/JiY3Vuyw0ugRAt67MBiH1meVzHOQJxJp00KMF1F/5TUG1QygNRmYC2eVCX60Lrm0Wep148uxIepvp4TrTLHPpGckyhKOMo7fLaaoUXdiP8W6X8qf1sznQygj3UPwFlumsr73oHv2hzOogdpzZI1C924jaZQ4v1UIeUbSlRqk=","pkgName":"com.android.browser","deviceType":"M68B0","ip":"172.29.60.58","os":"6.0-1517987373_I"}
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test015b
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/v2700/columns/subscribe
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{"supportSDK":"48","videoVersion":"7011001","v":"7012000","sdkVersion":"1001004","flymeuid":"","nt":"wifi","vn":"7.12.0","deviceinfo":"If/JiY3Vuyw0ugRAt67MBiH1meVzHOQJxJp00KMF1F/5TUG1QygNRmYC2eVCX60Lrm0Wep148uxIepvp4TrTLHPpGckyhKOMo7fLaaoUXdiP8W6X8qf1sznQygj3UPwFlumsr73oHv2hzOogdpzZI1C924jaZQ4v1UIeUbSlRqk=","pkgName":"com.android.browser","deviceType":"M68B0","ip":"172.29.60.58","os":"6.0-1517987373_I"}
+[2019-09-19 18:58:38] INFO [case_log_info: cast_log.py, 4] 测试用例：test017a
+[2019-09-19 18:58:38] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:58:38] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:58:38] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 18:58:38] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:58:38] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 14] 测试用例：test017a
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:58:38] INFO [case_log_base: cast_log.py, 16] 请求参数：{"v": "8000005", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.0.5", "deviceinfo": "j+kuJDOuZEzmwERbCsxpUO9FJlwHJcgyYiHuQgw1HS+Hdf0LAtvt8Dauyn+AjtghddbxcQWZvy1j+OnyPQWOwDHo4MXKApRjyZgyaCAwnjgL9WwU6XLk3Sk6uB5VdvRtyI80CVhn+XYxTSML/2ztYxJOnucKLDeDRCaZb9UHwyQ=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "172.18.8.143", "os": "6.0-1517987373_I", "access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA3MTY4NjIsInMiOiJucyIsImMiOiIxIiwiciI6Im1zZTZHa1g3QmFGNTE2NjE1ckc3IiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IkNGNzI4QkFGRTA2RTlDMzk4RUQzRTc3NTVFQjM4RUI2In0", "orders": "9,29,55,21,2,46,30,6,41"}
+[2019-09-19 18:58:39] INFO [case_log_info: cast_log.py, 4] 测试用例：test017b
+[2019-09-19 18:58:39] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:58:39] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:58:39] INFO [case_log_info: cast_log.py, 7] 期望结果：value不为空
+[2019-09-19 18:58:39] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:58:39] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test017b
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"v": "8000005", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.0.5", "deviceinfo": "j+kuJDOuZEzmwERbCsxpUO9FJlwHJcgyYiHuQgw1HS+Hdf0LAtvt8Dauyn+AjtghddbxcQWZvy1j+OnyPQWOwDHo4MXKApRjyZgyaCAwnjgL9WwU6XLk3Sk6uB5VdvRtyI80CVhn+XYxTSML/2ztYxJOnucKLDeDRCaZb9UHwyQ=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "172.18.8.143", "os": "6.0-1517987373_I", "access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA3MTcxMDcsInMiOiJucyIsImMiOiIxIiwiciI6ImRubUtqY29BdnlITFVqMmE2YlNmIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IkE1NkY2RDM5REQwRjNDOTRCNUM0NDBBQUM2QjBFRTUwIn0", "orders": "9,29,55,21,2,46,30,6,41"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test024a
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/comment/list
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"0N3ZBRxL_81_0","businessSubType":"4","offset":"10","count":"10","materielId":"71438959"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test024b
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/comment/list
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"0N3ZBRxL_81_0","businessSubType":"4","offset":"10","count":"10","materielId":"71438959"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test001
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/bro_setting/get
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861936030053089","userData":"{'userTag':'ljx_861936030053089','sex':-1,'activeTime':1523326623000}"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test002
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test002a
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test002a
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test002a
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 28] 期望结果：{'title': '热门小说'}
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 29] 实际结果：{'title': '热门小说'}
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test002b
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test002b
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 28] 期望结果：热门小说
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 29] 实际结果：热门小说
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test003
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test003b
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-19 18:58:39] INFO [case_log_result: cast_log.py, 20] 期望结果：en.w2546.net
+[2019-09-19 18:58:39] INFO [case_log_result: cast_log.py, 21] 实际结果：en.w2546.net
+[2019-09-19 18:58:39] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test007
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test007a
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test007a
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test007a
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 28] 期望结果：{'home_page': 'sm.cn'}
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 29] 实际结果：{'home_page': 'sm.cn'}
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test007b
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test007b
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 28] 期望结果：sm.cn
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 29] 实际结果：sm.cn
+[2019-09-19 18:58:39] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test009
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/getUserData
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"imei":"861936030053089"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test011a
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"0"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test011b
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test011c
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-19 18:58:39] INFO [case_log_result: cast_log.py, 20] 期望结果：1
+[2019-09-19 18:58:39] INFO [case_log_result: cast_log.py, 21] 实际结果：1
+[2019-09-19 18:58:39] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 14] 测试用例：test012
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-19 18:58:39] INFO [case_log_base: cast_log.py, 16] 请求参数：{"city":"深圳市"}
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 14] 测试用例：test013
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 14] 测试用例：test013a
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 14] 测试用例：test013a
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:58:40] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test013a
+[2019-09-19 18:58:40] INFO [case_log_info_result: cast_log.py, 28] 期望结果：{'title': '网址导航'}
+[2019-09-19 18:58:40] INFO [case_log_info_result: cast_log.py, 29] 实际结果：{'title': '网址导航'}
+[2019-09-19 18:58:40] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 14] 测试用例：test013b
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 18:58:40] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test013b
+[2019-09-19 18:58:40] INFO [case_log_info_result: cast_log.py, 28] 期望结果：网址导航
+[2019-09-19 18:58:40] INFO [case_log_info_result: cast_log.py, 29] 实际结果：网址导航
+[2019-09-19 18:58:40] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 14] 测试用例：test014
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":24,"mzos":0,"screen_size":"1440x2560","device_model":"PRO7Plus","v":"8.2.0","vc":8002000,"firmware_type":"normal","imei":"863098030135628","searchEngine":"sogou","userData":"{'userTag':'','sex':-1,'activeTime':1523519338000}"}
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 14] 测试用例：test016
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 16] 请求参数：{"access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA3MTgzMjIsInMiOiJucyIsImMiOiIxIiwiciI6InI3WnE2U1dTRUdkRnJud2dZeFlhIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IkZBN0M3MUY4OUYxMkZEMkQ4OTE4N0U1OEIwM0EzQUEwIn0", "supportSDK": "48", "videoVersion": "7011001", "v": "8001000", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.1.0", "deviceinfo": "kzUyLtPx5lgl5Rsv3p2XwRx5ihynmNSTUGfFo9EAhyYMPvvkSgTBsS77a2CYvT2bgkbEl+tj9XIC6lwtQFwVuvO4QshspDKee64RnD10+kYKujc/HSuIF7sLNpmzmF3RJ20XALGL2MUB+6dDFnUT2iXkCdSQ10XxQhFp8SZ1ZbU=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "", "os": "6.0-1517987373_I"}
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 14] 测试用例：test018
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-19 18:58:40] INFO [case_log_base: cast_log.py, 16] 请求参数： {"articleId":"1567574112122001","lastReqId":"","cpType":"64","algorithmVersion":"TENCENT--1","putdate":"1567570868000","temp_column_cp_source":"64","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"c6359c2f-4597-4476-b166-5be6a52bcc53","opType":"3","supportSDK":"48","temp_column_name":"头条","browserCardSex":"-1","cpChannelId":"0","cpMark":"0","columnId":"-1","tags":"","ucparam":"{'channelId':0,'cityName':'','ftime':0,'method':'new','recoid':''}","temp_column_id":"-1","v":"8001000","sdkVersion":"2000001","flymeuid":"113543993","nt":"wifi","vn":"8.1.0","deviceinfo":"YEDj4AIQddxlCF4yz/1gg6DYgZfV4NHdPou8LbdQwUD46sYUONm2M9VR5iD2c0s4G/FQW+LAQ4njBO4fj0yylvgMbP4G2bhnKH3OO3js520LRs8fWaz+abwm25gWZMJhFJK7bJEDOCRSC2kiYU6lFOkLE9mc9aXYi/nr91Vq+CU=","pkgName":"com.android.browser","deviceType":"M8710","ip":"","os":"7.1.2-1562065338_stable"}
+[2019-09-19 18:58:41] INFO [case_log_base: cast_log.py, 14] 测试用例：test019
+[2019-09-19 18:58:41] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-19 18:58:41] INFO [case_log_base: cast_log.py, 16] 请求参数：
+{"articleId":"1567686289958200","lastReqId":"","algorithmVersion":"JINRITOUTIAO-46","cpType":"84","putdate":"1567587960000","temp_column_cp_source":"84","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"758c13f2-89e0-458c-91dc-af4a544207d1","opType":"3","temp_column_name":"%E8%A7%86%E9%A2%91&supportSDK=48","browserCardSex":"-1","cpChannelId":"46","cpMark":"7","tags":"","columnId":"46","ucparam":"%7B%22channelId%22%3A46%2C%22cityName%22%3A%22%22%2C%22ftime%22%3A0%2C%22method%22%3A%22new%22%2C%22recoid%22%3A%22%22%7D","temp_column_id":"46","goldVersion":"1000000","v":"8002000","sdkVersion":"2002000","flymeuid":"113535901","nt":"wifi","vn":"8.2.0","deviceinfo":"K5tW96U381UAnuksQ%2Brlgj4y2j4mby1XHAhMn3eQ0lhI%2FlLrmCcNmvRWZHrNK6BVGfqyVWbw%2BoJF%0A8U9ODWoigmevBgILfNL4bvUpM8GDFFzQUs%2F02TRqcov3KyyuSblqIRMU0GmBPhGWZdrSdREj7QcU%0AIVnkOe7AwzN4HXhHcfE%3D%0A","pkgName":"com.android.browser","deviceType":"M576","ip":"","os":"5.1-1479146976_stable"}
+[2019-09-19 18:58:42] INFO [case_log_base: cast_log.py, 14] 测试用例：test020
+[2019-09-19 18:58:42] INFO [case_log_base: cast_log.py, 15] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-19 18:58:42] INFO [case_log_base: cast_log.py, 16] 请求参数：{"source":"6"}
+[2019-09-19 18:58:42] INFO [case_log_base: cast_log.py, 14] 测试用例：test021
+[2019-09-19 18:58:42] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-19 18:58:42] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"34175513262088325_76_0","businessSubType":"4","content":"不","star":"","image":"","source":"6","materielId":"298200461","sign":"b5cbb875aea8e5c69487789774f96c0e"}
+[2019-09-19 18:58:42] INFO [case_log_info: cast_log.py, 4] 测试用例：test022
+[2019-09-19 18:58:42] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/my/comment/list
+[2019-09-19 18:58:42] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:58:42] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 18:58:42] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:58:42] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:58:42] INFO [case_log_base: cast_log.py, 14] 测试用例：test022
+[2019-09-19 18:58:42] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/my/comment/list
+[2019-09-19 18:58:42] INFO [case_log_base: cast_log.py, 16] 请求参数：{"source":6,"count":10,"offset":0,"videoCpId":-1}
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 4] 测试用例：test023
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/message
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 14] 测试用例：test023
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/message
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 16] 请求参数：{"offset":"0","count":"10","source":"6","readCount":"-1","unreadCount":"-1","videoCpId":"-1"}
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 4] 测试用例：test025
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 18:58:43] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 14] 测试用例：test025
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 16] 请求参数：{"deviceType": "M9230", "os": "9-1558982340_I", "v": "8002000", "nt": "wifi", "goldVersion": "1000000", "flymeuid": "125444470", "pkgName": "com.android.browser", "ip=&vn": "8.2.0", "sdkVersion": "2002000", "deviceinfo": "qT4AiD5scUaM6%2B4TLqDCH3Iww5AynmjM1h0TMWYbEkZ%2BoErOyZ%2F%2Fky%2FffcFGtF%2FuRDFpvhhs9NL9%0A30TJVtqjLeUocZzNAuU2SLRFciX8QheaPN3StO4%2FKeqPiOivXoPqmKa5ytnvKLaL3cjyp83mLyKe%0A1lqzggY2d0%2FnC3dPaqA%3D%0A", "access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA3MjExOTMsInMiOiJucyIsImMiOiIxIiwiciI6IktJazI2TkhZU2lzdTZ2YzRlaTBmIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IjQ5RjdDQ0QwRDA4QUM3QjkyRUMzNENENEM1MDg0NDIwIn0", "orders": "458%2C516%2C524%2C356%2C517"}
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 14] 测试用例：test026
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/imgColumnLabelNew
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 16] 请求参数：{"deviceType":"M9230","os":"9-1558982340_I","v":"8002000","nt":"wifi","goldVersion":"1000000","flymeuid":"113516747","pkgName":"com.android.browser","ip=&vn":"8.2.0","sdkVersion":"2002000","deviceinfo":"SLwFi7BmgYAnx8UFEBAbObh2Vp3Lwzn3LI8UifAsBTDkzYi5ihACABztOvktdCqnvBgV1zgvbp%2Bd%0AdypnQbF%2BJRripQaZJiDuYH1nld588kSXOoyIrqNoja%2Bw0zwFgX%2B6q%2FOGyQ0kJO%2FkG%2BmV%2F4Ww%2BSyP%0A7rca9WLx0jORQR36Mpo%3D%0A"}
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 14] 测试用例：test026b
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/imgColumnLabelNew
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 16] 请求参数：{"deviceType":"M9230","os":"9-1558982340_I","v":"8002000","nt":"wifi","goldVersion":"1000000","flymeuid":"113516747","pkgName":"com.android.browser","ip=&vn":"8.2.0","sdkVersion":"2002000","deviceinfo":"SLwFi7BmgYAnx8UFEBAbObh2Vp3Lwzn3LI8UifAsBTDkzYi5ihACABztOvktdCqnvBgV1zgvbp%2Bd%0AdypnQbF%2BJRripQaZJiDuYH1nld588kSXOoyIrqNoja%2Bw0zwFgX%2B6q%2FOGyQ0kJO%2FkG%2BmV%2F4Ww%2BSyP%0A7rca9WLx0jORQR36Mpo%3D%0A"}
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 14] 测试用例：test027
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/img/channelImgList
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 16] 请求参数：{"position":"15687948609955","type":"4","deviceType":"M9230","os":"9-1558982340_I","v":"8002000","nt":"wifi","goldVersion":"1000000","flymeuid":"113516747","pkgName":"com.android.browser","ip=&vn":"8.2.0","sdkVersion":"2002000","deviceinfo":"V8w1DMfWrZkimyd%2BzwU2UOHLH7pFKidDlVeBgWQAt6gKO6UoOz0D%2Bj15p5fOt1q4L7UJeo4wZjfu%0AaGXwtoZvbv4tw22pYYFjT1GMbPqTwTrExkpJuxeHnjjX7rbgXnGSBcbBN5jLjlsTSBOySfJxULtF%0A3Ljzd%2BEyK7tOycXU8sI%3D%0A"}
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 14] 测试用例：test005
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 18:58:43] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"visit_webpage"}
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 14] 测试用例：test004a
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.1.0","vc":"8001000","firmware_type":"normal"}
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 14] 测试用例：test004b
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"ua_uc,android_uc,desktop_uc,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"7.12.0","vc":"7012000","firmware_type":"normal"}
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 14] 测试用例：test004c
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"android_360,search_engine,wangjian","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.2.0","vc":"8002000","firmware_type":"normal"}
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 14] 测试用例：test006a
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-19 19:00:08] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test006b
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/bloom_config/listAll
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test010a
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test010b
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/search_suggest/list
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{}
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test015a
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/v2700/columns/subscribe
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{"supportSDK":"48","videoVersion":"7011001","v":"7012000","sdkVersion":"1001004","flymeuid":"","nt":"wifi","vn":"7.12.0","deviceinfo":"If/JiY3Vuyw0ugRAt67MBiH1meVzHOQJxJp00KMF1F/5TUG1QygNRmYC2eVCX60Lrm0Wep148uxIepvp4TrTLHPpGckyhKOMo7fLaaoUXdiP8W6X8qf1sznQygj3UPwFlumsr73oHv2hzOogdpzZI1C924jaZQ4v1UIeUbSlRqk=","pkgName":"com.android.browser","deviceType":"M68B0","ip":"172.29.60.58","os":"6.0-1517987373_I"}
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test015b
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/v2700/columns/subscribe
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{"supportSDK":"48","videoVersion":"7011001","v":"7012000","sdkVersion":"1001004","flymeuid":"","nt":"wifi","vn":"7.12.0","deviceinfo":"If/JiY3Vuyw0ugRAt67MBiH1meVzHOQJxJp00KMF1F/5TUG1QygNRmYC2eVCX60Lrm0Wep148uxIepvp4TrTLHPpGckyhKOMo7fLaaoUXdiP8W6X8qf1sznQygj3UPwFlumsr73oHv2hzOogdpzZI1C924jaZQ4v1UIeUbSlRqk=","pkgName":"com.android.browser","deviceType":"M68B0","ip":"172.29.60.58","os":"6.0-1517987373_I"}
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 4] 测试用例：test017a
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test017a
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{"v": "8000005", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.0.5", "deviceinfo": "j+kuJDOuZEzmwERbCsxpUO9FJlwHJcgyYiHuQgw1HS+Hdf0LAtvt8Dauyn+AjtghddbxcQWZvy1j+OnyPQWOwDHo4MXKApRjyZgyaCAwnjgL9WwU6XLk3Sk6uB5VdvRtyI80CVhn+XYxTSML/2ztYxJOnucKLDeDRCaZb9UHwyQ=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "172.18.8.143", "os": "6.0-1517987373_I", "access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA4MDc0NjgsInMiOiJucyIsImMiOiIxIiwiciI6Inp5c1ZJcFVObGZYYjB0YWRERkpwIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IkYzRDJGOUU2OUNDRDczNTg3MkY4NkQ0OEU5NTIxMjVCIn0", "orders": "9,29,55,21,2,46,30,6,41"}
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 4] 测试用例：test017b
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 7] 期望结果：value不为空
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 19:00:09] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test017b
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{"v": "8000005", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.0.5", "deviceinfo": "j+kuJDOuZEzmwERbCsxpUO9FJlwHJcgyYiHuQgw1HS+Hdf0LAtvt8Dauyn+AjtghddbxcQWZvy1j+OnyPQWOwDHo4MXKApRjyZgyaCAwnjgL9WwU6XLk3Sk6uB5VdvRtyI80CVhn+XYxTSML/2ztYxJOnucKLDeDRCaZb9UHwyQ=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "172.18.8.143", "os": "6.0-1517987373_I", "access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA4MDc3MDQsInMiOiJucyIsImMiOiIxIiwiciI6IjE2bWpNSWttdXFaYlBmcjBOV3BpIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IkY0RTQ2QzI5QjY1MDUxRjUwMjg4RDQxMjkyRkQ1MjA1In0", "orders": "9,29,55,21,2,46,30,6,41"}
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test024a
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/comment/list
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"0N3ZBRxL_81_0","businessSubType":"4","offset":"10","count":"10","materielId":"71438959"}
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test024b
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/comment/list
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"0N3ZBRxL_81_0","businessSubType":"4","offset":"10","count":"10","materielId":"71438959"}
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 14] 测试用例：test001
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/bro_setting/get
+[2019-09-19 19:00:09] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3Max","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861936030053089","userData":"{'userTag':'ljx_861936030053089','sex':-1,'activeTime':1523326623000}"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test002
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test002a
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test002a
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test002a
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 28] 期望结果：{'title': '热门小说'}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 29] 实际结果：{'title': '热门小说'}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test002b
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/card/get
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"page":"index","cityType":"first_city","language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M1E","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"861402030079681","userData":"%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A1562656456000"}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test002b
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 28] 期望结果：热门小说
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 29] 实际结果：热门小说
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test003
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test003b
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/black_white_list/listMulti
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"28","mzos":"0","screen_size":"1080x2098","device_model":"Note9","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"866309040040667","userData":"%7B%22userTag%22%3A%22%22%2C%22activeTime%22%3A1548731652000%2C%22sex%22%3A-1%7D"}
+[2019-09-19 19:00:10] INFO [case_log_result: cast_log.py, 20] 期望结果：en.w2546.net
+[2019-09-19 19:00:10] INFO [case_log_result: cast_log.py, 21] 实际结果：en.w2546.net
+[2019-09-19 19:00:10] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test007
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test007a
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test007a
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test007a
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 28] 期望结果：{'home_page': 'sm.cn'}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 29] 实际结果：{'home_page': 'sm.cn'}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test007b
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/search_engine/get
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"23","mzos":"0","screen_size":"1080x1920","device_model":"M3X","v":"8.1.0","vc":"8001000","firmware_type":"normal","cityType":"first_city","imei":"862843030001515","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test007b
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 28] 期望结果：sm.cn
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 29] 实际结果：sm.cn
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test009
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/getUserData
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"imei":"861936030053089"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test011a
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"0"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test011b
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test011c
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/client/getState.do
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"userId":"113516747"}
+[2019-09-19 19:00:10] INFO [case_log_result: cast_log.py, 20] 期望结果：1
+[2019-09-19 19:00:10] INFO [case_log_result: cast_log.py, 21] 实际结果：1
+[2019-09-19 19:00:10] INFO [case_log_result: cast_log.py, 22] 
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test012
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:http://bro.flyme.cn/static/tag/convert.do
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"city":"深圳市"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test013
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test013a
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test013a
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test013a
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 28] 期望结果：{'title': '网址导航'}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 29] 实际结果：{'title': '网址导航'}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test013b
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/site_square/list.do
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":"22","mzos":"5","screen_size":"1080x1920","device_model":"PRO5","v":"8.1.0","vc":"8001000","firmware_type":"normal","imei":"867905020033587","userData":"%7B%22userTag%22%3A%22%22%2C%22sex%22%3A-1%2C%22activeTime%22%3A15262800"}
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 27] 测试用例：test013b
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 28] 期望结果：网址导航
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 29] 实际结果：网址导航
+[2019-09-19 19:00:10] INFO [case_log_info_result: cast_log.py, 30] 
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 14] 测试用例：test014
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/searchEngine/listHotSearch
+[2019-09-19 19:00:10] INFO [case_log_base: cast_log.py, 16] 请求参数：{"language":"zh_CN","locale":"CN","os":24,"mzos":0,"screen_size":"1440x2560","device_model":"PRO7Plus","v":"8.2.0","vc":8002000,"firmware_type":"normal","imei":"863098030135628","searchEngine":"sogou","userData":"{'userTag':'','sex':-1,'activeTime':1523519338000}"}
+[2019-09-19 19:00:11] INFO [case_log_base: cast_log.py, 14] 测试用例：test016
+[2019-09-19 19:00:11] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/v2700/columns/subscribe
+[2019-09-19 19:00:11] INFO [case_log_base: cast_log.py, 16] 请求参数：{"access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA4MDg5NTgsInMiOiJucyIsImMiOiIxIiwiciI6ImJEZ0ZWY0RYbE90dTZJcWZEdk9KIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IjUzNzlCRjE5RDdGRTYzNEQ2RUMzNTk2Q0FBMzI1OTYwIn0", "supportSDK": "48", "videoVersion": "7011001", "v": "8001000", "sdkVersion": "2000000", "flymeuid": "125444470", "nt": "wifi", "vn": "8.1.0", "deviceinfo": "kzUyLtPx5lgl5Rsv3p2XwRx5ihynmNSTUGfFo9EAhyYMPvvkSgTBsS77a2CYvT2bgkbEl+tj9XIC6lwtQFwVuvO4QshspDKee64RnD10+kYKujc/HSuIF7sLNpmzmF3RJ20XALGL2MUB+6dDFnUT2iXkCdSQ10XxQhFp8SZ1ZbU=", "pkgName": "com.android.browser", "deviceType": "M68B0", "ip": "", "os": "6.0-1517987373_I"}
+[2019-09-19 19:00:11] INFO [case_log_base: cast_log.py, 14] 测试用例：test018
+[2019-09-19 19:00:11] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/index
+[2019-09-19 19:00:11] INFO [case_log_base: cast_log.py, 16] 请求参数： {"articleId":"1567574112122001","lastReqId":"","cpType":"64","algorithmVersion":"TENCENT--1","putdate":"1567570868000","temp_column_cp_source":"64","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"c6359c2f-4597-4476-b166-5be6a52bcc53","opType":"3","supportSDK":"48","temp_column_name":"头条","browserCardSex":"-1","cpChannelId":"0","cpMark":"0","columnId":"-1","tags":"","ucparam":"{'channelId':0,'cityName':'','ftime':0,'method':'new','recoid':''}","temp_column_id":"-1","v":"8001000","sdkVersion":"2000001","flymeuid":"113543993","nt":"wifi","vn":"8.1.0","deviceinfo":"YEDj4AIQddxlCF4yz/1gg6DYgZfV4NHdPou8LbdQwUD46sYUONm2M9VR5iD2c0s4G/FQW+LAQ4njBO4fj0yylvgMbP4G2bhnKH3OO3js520LRs8fWaz+abwm25gWZMJhFJK7bJEDOCRSC2kiYU6lFOkLE9mc9aXYi/nr91Vq+CU=","pkgName":"com.android.browser","deviceType":"M8710","ip":"","os":"7.1.2-1562065338_stable"}
+[2019-09-19 19:00:12] INFO [case_log_base: cast_log.py, 14] 测试用例：test019
+[2019-09-19 19:00:12] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/newsflow/column
+[2019-09-19 19:00:12] INFO [case_log_base: cast_log.py, 16] 请求参数：
+{"articleId":"1567686289958200","lastReqId":"","algorithmVersion":"JINRITOUTIAO-46","cpType":"84","putdate":"1567587960000","temp_column_cp_source":"84","offset":"0","baiduid":"","browserFreshRule":"1","browserCardEnabled":"1","temp_load_type":"4","clientReqId":"758c13f2-89e0-458c-91dc-af4a544207d1","opType":"3","temp_column_name":"%E8%A7%86%E9%A2%91&supportSDK=48","browserCardSex":"-1","cpChannelId":"46","cpMark":"7","tags":"","columnId":"46","ucparam":"%7B%22channelId%22%3A46%2C%22cityName%22%3A%22%22%2C%22ftime%22%3A0%2C%22method%22%3A%22new%22%2C%22recoid%22%3A%22%22%7D","temp_column_id":"46","goldVersion":"1000000","v":"8002000","sdkVersion":"2002000","flymeuid":"113535901","nt":"wifi","vn":"8.2.0","deviceinfo":"K5tW96U381UAnuksQ%2Brlgj4y2j4mby1XHAhMn3eQ0lhI%2FlLrmCcNmvRWZHrNK6BVGfqyVWbw%2BoJF%0A8U9ODWoigmevBgILfNL4bvUpM8GDFFzQUs%2F02TRqcov3KyyuSblqIRMU0GmBPhGWZdrSdREj7QcU%0AIVnkOe7AwzN4HXhHcfE%3D%0A","pkgName":"com.android.browser","deviceType":"M576","ip":"","os":"5.1-1479146976_stable"}
+[2019-09-19 19:00:12] INFO [case_log_base: cast_log.py, 14] 测试用例：test020
+[2019-09-19 19:00:12] INFO [case_log_base: cast_log.py, 15] url:http://mp.meizu.com/api/auth/has/message
+[2019-09-19 19:00:12] INFO [case_log_base: cast_log.py, 16] 请求参数：{"source":"6"}
+[2019-09-19 19:00:13] INFO [case_log_base: cast_log.py, 14] 测试用例：test021
+[2019-09-19 19:00:13] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/comment/add
+[2019-09-19 19:00:13] INFO [case_log_base: cast_log.py, 16] 请求参数：{"businessType":"5","businessId":"34175513262088325_76_0","businessSubType":"4","content":"不","star":"","image":"","source":"6","materielId":"298200461","sign":"b5cbb875aea8e5c69487789774f96c0e"}
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test022
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/my/comment/list
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 19:00:13] INFO [case_log_base: cast_log.py, 14] 测试用例：test022
+[2019-09-19 19:00:13] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/my/comment/list
+[2019-09-19 19:00:13] INFO [case_log_base: cast_log.py, 16] 请求参数：{"source":6,"count":10,"offset":0,"videoCpId":-1}
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 4] 测试用例：test023
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 5] url:https://mp.meizu.com/api/auth/message
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 19:00:13] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 19:00:13] INFO [case_log_base: cast_log.py, 14] 测试用例：test023
+[2019-09-19 19:00:13] INFO [case_log_base: cast_log.py, 15] url:https://mp.meizu.com/api/auth/message
+[2019-09-19 19:00:13] INFO [case_log_base: cast_log.py, 16] 请求参数：{"offset":"0","count":"10","source":"6","readCount":"-1","unreadCount":"-1","videoCpId":"-1"}
+[2019-09-19 19:00:14] INFO [case_log_info: cast_log.py, 4] 测试用例：test025
+[2019-09-19 19:00:14] INFO [case_log_info: cast_log.py, 5] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 19:00:14] INFO [case_log_info: cast_log.py, 6] 请求参数：{}
+[2019-09-19 19:00:14] INFO [case_log_info: cast_log.py, 7] 期望结果：200.0
+[2019-09-19 19:00:14] INFO [case_log_info: cast_log.py, 8] 实际结果：<Response [200]>
+[2019-09-19 19:00:14] INFO [case_log_info: cast_log.py, 9] 
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test025
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/auth/columns/subscribe/update
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"deviceType": "M9230", "os": "9-1558982340_I", "v": "8002000", "nt": "wifi", "goldVersion": "1000000", "flymeuid": "125444470", "pkgName": "com.android.browser", "ip=&vn": "8.2.0", "sdkVersion": "2002000", "deviceinfo": "qT4AiD5scUaM6%2B4TLqDCH3Iww5AynmjM1h0TMWYbEkZ%2BoErOyZ%2F%2Fky%2FffcFGtF%2FuRDFpvhhs9NL9%0A30TJVtqjLeUocZzNAuU2SLRFciX8QheaPN3StO4%2FKeqPiOivXoPqmKa5ytnvKLaL3cjyp83mLyKe%0A1lqzggY2d0%2FnC3dPaqA%3D%0A", "access_token": "eyJ2IjozLCJnIjpmYWxzZSwidSI6IjExMzUzNzA3MyIsInQiOjE1Njg4OTA4MTIyMDMsInMiOiJucyIsImMiOiIxIiwiciI6IkNNaTNuWVl4QkN1SmU5dTYwS0VFIiwiYSI6IkZGREUyMzg1RUY5ODY5OTQ5MkQ0NDQwM0IxREExMkM0IiwibCI6IkQyN0U5QTMzMUIzRTA3QzdEN0I5QTNCREM1NzA4MENDIn0", "orders": "458%2C516%2C524%2C356%2C517"}
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test026
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/imgColumnLabelNew
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"deviceType":"M9230","os":"9-1558982340_I","v":"8002000","nt":"wifi","goldVersion":"1000000","flymeuid":"113516747","pkgName":"com.android.browser","ip=&vn":"8.2.0","sdkVersion":"2002000","deviceinfo":"SLwFi7BmgYAnx8UFEBAbObh2Vp3Lwzn3LI8UifAsBTDkzYi5ihACABztOvktdCqnvBgV1zgvbp%2Bd%0AdypnQbF%2BJRripQaZJiDuYH1nld588kSXOoyIrqNoja%2Bw0zwFgX%2B6q%2FOGyQ0kJO%2FkG%2BmV%2F4Ww%2BSyP%0A7rca9WLx0jORQR36Mpo%3D%0A"}
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test026b
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/imgColumnLabelNew
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"deviceType":"M9230","os":"9-1558982340_I","v":"8002000","nt":"wifi","goldVersion":"1000000","flymeuid":"113516747","pkgName":"com.android.browser","ip=&vn":"8.2.0","sdkVersion":"2002000","deviceinfo":"SLwFi7BmgYAnx8UFEBAbObh2Vp3Lwzn3LI8UifAsBTDkzYi5ihACABztOvktdCqnvBgV1zgvbp%2Bd%0AdypnQbF%2BJRripQaZJiDuYH1nld588kSXOoyIrqNoja%2Bw0zwFgX%2B6q%2FOGyQ0kJO%2FkG%2BmV%2F4Ww%2BSyP%0A7rca9WLx0jORQR36Mpo%3D%0A"}
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test027
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 15] url:https://reader.meizu.com/android/unauth/img/channelImgList
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"position":"15687948609955","type":"4","deviceType":"M9230","os":"9-1558982340_I","v":"8002000","nt":"wifi","goldVersion":"1000000","flymeuid":"113516747","pkgName":"com.android.browser","ip=&vn":"8.2.0","sdkVersion":"2002000","deviceinfo":"V8w1DMfWrZkimyd%2BzwU2UOHLH7pFKidDlVeBgWQAt6gKO6UoOz0D%2Bj15p5fOt1q4L7UJeo4wZjfu%0AaGXwtoZvbv4tw22pYYFjT1GMbPqTwTrExkpJuxeHnjjX7rbgXnGSBcbBN5jLjlsTSBOySfJxULtF%0A3Ljzd%2BEyK7tOycXU8sI%3D%0A"}
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 14] 测试用例：test005
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 15] url:https://bro.flyme.cn/static/base_data/list
+[2019-09-19 19:00:14] INFO [case_log_base: cast_log.py, 16] 请求参数：{"types":"visit_webpage"}
